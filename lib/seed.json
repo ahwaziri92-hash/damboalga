@@ -1,0 +1,1717 @@
+{
+ "news": [
+  {
+   "date_label": "Coming soon",
+   "sort_date": null,
+   "category": "Video",
+   "title": "Chairman's message to the people of Damboa (in Hausa)",
+   "body": "A short video message from the Executive Chairman. Video stories let everyone follow council news, including people who do not read. On the live site videos play here, from YouTube or uploaded by the Information Unit.",
+   "tags": [
+    "Hon. Ali Mohammed Kauji"
+   ],
+   "service_key": null,
+   "is_video": true,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "draft",
+   "office_key": "chairman",
+   "image_url": null
+  },
+  {
+   "date_label": "17 Nov 2026",
+   "sort_date": "2026-11-17",
+   "category": "Safety",
+   "title": "Farmer's alert helps troops safely remove explosive near Damboa",
+   "body": "A farmer working his land on the outskirts of Damboa town found an unexploded device on 13 November and alerted troops on patrol, who safely disposed of it. Anyone who finds a suspicious object should not touch it and should report it to the nearest security post.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": "The News Chronicle",
+   "source_url": "https://thenews-chronicle.com/farmer-alerts-soldiers-as-unexploded-bomb-is-found-near-damboa-borno/",
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "Nov 2026",
+   "sort_date": "2026-11-01",
+   "category": "Health",
+   "title": "Prof. Baba Mallam Gana named North-East Regional Coordinator for BATmedics",
+   "body": "The Damboa-born Commissioner for Health and Human Services takes on a regional coordinating role for BATmedics across the North-East.",
+   "tags": [
+    "Prof. Baba Mallam Gana"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "13 Aug 2026",
+   "sort_date": "2026-08-13",
+   "category": "Digital",
+   "title": "Damboa LG ICT Centre hosts its first computer-based exams",
+   "body": "The newly operational BICTDA ICT Centre in Damboa hosted computer-based exams monitored live from Maiduguri, giving local candidates a modern test centre at home instead of travelling to the state capital.",
+   "tags": [],
+   "service_key": "ict",
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "Jul 2026",
+   "sort_date": "2026-07-01",
+   "category": "Governance",
+   "title": "Damboa LGA receives ₦945.6m federal allocation for July",
+   "body": "Damboa's monthly allocation for July 2026 was about ₦945.6 million, up 28% on the previous month, or roughly ₦2,767 per resident. The council will publish how allocations are spent on this site.",
+   "tags": [
+    "Hon. Ali Mohammed Kauji"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": "OurLgaMoni",
+   "source_url": "https://ourlgamoni.com/lga/borno/damboa",
+   "status": "published",
+   "office_key": "chairman",
+   "image_url": null
+  },
+  {
+   "date_label": "9 Jun 2026",
+   "sort_date": "2026-06-09",
+   "category": "Health",
+   "title": "International Medical Corps trains staff at Damboa General Hospital",
+   "body": "International Medical Corps is training health workers at Damboa General Hospital, treating children with malnutrition at its stabilisation centre and supporting safer births for mothers.",
+   "tags": [],
+   "service_key": "hospital",
+   "is_video": false,
+   "video_url": null,
+   "source_name": "International Medical Corps",
+   "source_url": "https://internationalmedicalcorps.org/story/a-new-beginning-for-damboa/",
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "3 Jun 2026",
+   "sort_date": "2026-06-03",
+   "category": "Health",
+   "title": "Prof. Baba Mallam Gana resumes as Commissioner for Health",
+   "body": "Reassigned on 18 May 2026, he resumed the Health and Human Services portfolio on 3 June 2026.",
+   "tags": [
+    "Prof. Baba Mallam Gana"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "3 Feb 2026",
+   "sort_date": "2026-02-03",
+   "category": "Health",
+   "title": "New Ultra Modern General Hospital commissioned in Damboa",
+   "body": "The Acting Governor, Umar Usman Kadafur, commissioned the state government's new General Hospital in Damboa. On the same visit he unveiled sports and women's development centres built by Hon. Ahmadu Usman Jaha, member for Damboa/Gwoza/Chibok.",
+   "tags": [
+    "Hon. Ahmadu Usman Jaha"
+   ],
+   "service_key": "hospital",
+   "is_video": false,
+   "video_url": null,
+   "source_name": "Vanguard",
+   "source_url": "https://www.vanguardngr.com/2026/02/borno-acting-governor-unveils-hon-jahas-sports-women-devt-centres-in-damboa/",
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "29 Jan 2026",
+   "sort_date": "2026-01-29",
+   "category": "Governance",
+   "title": "Hon. Ali Mohammed Kauji sworn in as Executive Chairman",
+   "body": "Following the 13 December 2025 council elections, new council chairmen were sworn in across Borno State. The State Government also approved direct payment of allocations to local governments.",
+   "tags": [
+    "Hon. Ali Mohammed Kauji"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": "chairman",
+   "image_url": null
+  },
+  {
+   "date_label": "6 Dec 2025",
+   "sort_date": "2025-12-06",
+   "category": "Safety",
+   "title": "\"We are behind you\": Governor Zulum addresses troops in Damboa",
+   "body": "Governor Zulum visited Damboa to encourage the armed forces protecting the town and its farmlands.",
+   "tags": [
+    "Prof. Babagana Umara Zulum"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": "Federal Ministry of Information",
+   "source_url": "https://fmino.gov.ng/tag/damboa/",
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "4 Feb 2025",
+   "sort_date": "2025-02-04",
+   "category": "Governance",
+   "title": "Mala A. Waziri sworn in as Permanent Secretary",
+   "body": "Selected through the state civil service examination, he was sworn in with four other new Permanent Secretaries, representing Damboa LGA.",
+   "tags": [
+    "Mala A. Waziri"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "Nov 2024",
+   "sort_date": "2024-11-01",
+   "category": "Education",
+   "title": "Higher Islamic College and Integrated Tsangaya School opened in Damboa",
+   "body": "Governor Zulum opened the Damboa Higher Islamic College and an Integrated Tsangaya School, commissioned Garjang Junior Secondary School, and gave 2,000 pupils uniforms, books and 500 bicycles.",
+   "tags": [
+    "Prof. Babagana Umara Zulum"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "Nov 2024",
+   "sort_date": "2024-11-01",
+   "category": "Health",
+   "title": "New 75-bed General Hospital nears completion",
+   "body": "The Governor inspected the nearly finished 75-bed General Hospital in Damboa, which replaces the old hospital and anchors the recovery of health services across the LGA.",
+   "tags": [
+    "Prof. Babagana Umara Zulum"
+   ],
+   "service_key": "hospital",
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "Oct 2024",
+   "sort_date": "2024-10-01",
+   "category": "Education",
+   "title": "Engr. Prof. Babagana Gutti appointed substantive Vice-Chancellor",
+   "body": "Governor Babagana Zulum appointed the Damboa-born engineer as substantive Vice-Chancellor of the university now known as Kashim Ibrahim University.",
+   "tags": [
+    "Engr. Prof. Babagana Gutti"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "2024",
+   "sort_date": "2024-01-01",
+   "category": "Education",
+   "title": "Rehabilitation approved for Wovi, Girls Technical and Day Secondary schools",
+   "body": "The State Government approved rehabilitation of Wovi Primary and Junior Secondary School, Government Girls Technical School and Government Day Secondary School, plus a ₦50m running grant for the Higher Islamic College.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "2024",
+   "sort_date": "2024-01-01",
+   "category": "Health",
+   "title": "Free clinics continue at GTS and Hausari",
+   "body": "Médecins du Monde kept two free clinics running in Damboa, while International Medical Corps supports the nutrition stabilisation centre at the General Hospital.",
+   "tags": [],
+   "service_key": "clinics",
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "6 Sep 2016",
+   "sort_date": "2016-09-06",
+   "category": "Economy",
+   "title": "Damboa main market reopens after two years",
+   "body": "Two years after it was destroyed, Damboa's main market reopened with the return of peace, led by the then caretaker chairman and the District Head.",
+   "tags": [],
+   "service_key": "market",
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "1976",
+   "sort_date": "1976-01-01",
+   "category": "History",
+   "title": "Damboa Local Government Area is created",
+   "body": "Damboa LGA was created in the 1976 Local Government Reform, with its headquarters in Damboa town.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "Nov 2026",
+   "sort_date": "2026-11-01",
+   "category": "Politics",
+   "title": "Dr. Mohammed Mai Bukar on APC's list of State Assembly candidates for Damboa",
+   "body": "The party's consolidated list for the 2027 State House of Assembly election includes Damboa State Constituency.",
+   "tags": [
+    "Dr. Mohammed Mai Bukar, PhD"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": "state-member",
+   "image_url": null
+  },
+  {
+   "date_label": "9 Sep 2026",
+   "sort_date": "2026-09-09",
+   "category": "Politics",
+   "title": "Campaigns open for the 2027 general elections",
+   "body": "Campaigning for the January and February 2027 elections began nationwide.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "May 2026",
+   "sort_date": "2026-05-01",
+   "category": "Politics",
+   "title": "Sen. Ndume returned unopposed as APC candidate for Borno South",
+   "body": "He was affirmed at the party primary held in Maiduguri.",
+   "tags": [
+    "Sen. Mohammed Ali Ndume"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "5 Feb 2026",
+   "sort_date": "2026-02-05",
+   "category": "Politics",
+   "title": "INEC registers two new political parties",
+   "body": "The Democratic Leadership Alliance (DLA) and the Nigeria Democratic Congress (NDC) were registered ahead of 2027.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "2026",
+   "sort_date": "2026-06-01",
+   "category": "Politics",
+   "title": "Dr. Mohammed Mai Bukar picks up nomination forms for the Damboa seat",
+   "body": "Dr. Mai Bukar obtained the APC expression of interest and nomination forms for the Damboa State Assembly seat.",
+   "tags": [
+    "Dr. Mohammed Mai Bukar, PhD"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": "state-member",
+   "image_url": null
+  }
+ ],
+ "chairmen": [
+  {
+   "sort": 1,
+   "name": "Late Alhaji Lawan Kabu",
+   "role": "Former Executive Chairman",
+   "years": "Years to confirm",
+   "bio": "Remembered as a former chairman of Damboa Local Government. His passing was reported in 2012.",
+   "photo_url": null,
+   "is_current": false,
+   "show": true
+  },
+  {
+   "sort": 2,
+   "name": "Alhaji Abu (Habu) Hong",
+   "role": "Caretaker Chairman",
+   "years": "c. 2016",
+   "bio": "Led the council during the return of peace. On 6 September 2016 he reopened the Damboa main market, two years after it was destroyed.",
+   "photo_url": null,
+   "is_current": false,
+   "show": true
+  },
+  {
+   "sort": 3,
+   "name": "Hon. Al-Amin Muhammad Gumsuri",
+   "role": "Caretaker Chairman",
+   "years": "2017",
+   "bio": "Caretaker chairman of Damboa Local Government in 2017.",
+   "photo_url": null,
+   "is_current": false,
+   "show": true
+  },
+  {
+   "sort": 4,
+   "name": "Prof. Adamu Garba Alooma",
+   "role": "Executive Chairman",
+   "years": "Dec 2020 – Dec 2022",
+   "bio": "Professor of banking and finance and former Dean of Management Sciences, University of Maiduguri. Elected in the 28 November 2020 council elections.",
+   "photo_url": "/img/alooma.jpg",
+   "is_current": false,
+   "show": true
+  },
+  {
+   "sort": 5,
+   "name": "Hon. Habu Daja-Ali",
+   "role": "Caretaker Chairman",
+   "years": "Dec 2022 – Jan 2024",
+   "bio": "Caretaker chairman of Damboa Local Government. At another time he represented Damboa in the Borno State House of Assembly (2015–2019).",
+   "photo_url": "/img/daja.jpg",
+   "is_current": false,
+   "show": true
+  },
+  {
+   "sort": 6,
+   "name": "Hon. Ali Mohammed Kauji",
+   "role": "Executive Chairman (current)",
+   "years": "Jan 2024 – present",
+   "bio": "Elected chairman in January 2024 and returned in the 13 December 2025 council elections; sworn in for the current term on 29 January 2026.",
+   "photo_url": "/img/chair.jpg",
+   "is_current": true,
+   "show": true
+  }
+ ],
+ "seats": [
+  {
+   "key": "state",
+   "sort": 1,
+   "chamber": "Borno State House of Assembly",
+   "title": "Member, Damboa State Constituency",
+   "current_name": "Dr. Mohammed Mai Bukar, PhD",
+   "current_years": "Current",
+   "photo_url": "/img/member.jpg",
+   "page_slug": "mai-bukar",
+   "updates": [],
+   "area": "Damboa State Constituency"
+  },
+  {
+   "key": "reps",
+   "sort": 2,
+   "chamber": "House of Representatives",
+   "title": "Damboa/Gwoza/Chibok Federal Constituency · covers 3 LGAs · from Gwoza",
+   "current_name": "Hon. Ahmadu Usman Jaha",
+   "current_years": "2019 – present",
+   "photo_url": "/img/jaha.jpg",
+   "page_slug": null,
+   "updates": [
+    {
+     "label": "2023",
+     "text": "Re-elected for a second term in the 10th National Assembly."
+    },
+    {
+     "label": "Constituency",
+     "text": "Projects in Damboa include ambulances, farm equipment and a 600-seat mini stadium."
+    }
+   ],
+   "area": "Damboa, Gwoza and Chibok LGAs"
+  },
+  {
+   "key": "senate",
+   "sort": 3,
+   "chamber": "Senate",
+   "title": "Borno South Senatorial District · covers 9 LGAs · from Gwoza",
+   "current_name": "Sen. Mohammed Ali Ndume",
+   "current_years": "2011 – present",
+   "photo_url": "/img/ndume.jpg",
+   "page_slug": null,
+   "updates": [
+    {
+     "label": "May 2026",
+     "text": "Returned unopposed as APC candidate for Borno South for the 2027 election."
+    },
+    {
+     "label": "2011 – today",
+     "text": "Fourth term in the Senate; earlier two terms in the House for Gwoza/Damboa/Chibok."
+    }
+   ],
+   "area": "Askira/Uba, Bayo, Biu, Chibok, Damboa, Gwoza, Hawul, Kwaya Kusar, Shani"
+  }
+ ],
+ "holders": [
+  {
+   "seat_key": "state",
+   "sort": 1,
+   "years": "1999 – 2015",
+   "name": "Hon. Ayemu Lawan Gwasha",
+   "note": "APP / ANPP / APC",
+   "is_current": false,
+   "photo_url": null
+  },
+  {
+   "seat_key": "state",
+   "sort": 2,
+   "years": "2015 – 2019",
+   "name": "Hon. Habu Daja-Ali",
+   "note": "Also a former Caretaker Chairman of Damboa LGA",
+   "is_current": false,
+   "photo_url": "/img/daja.jpg"
+  },
+  {
+   "seat_key": "state",
+   "sort": 3,
+   "years": "2019 – 2027",
+   "name": "Hon. Malami Wakil Korede",
+   "note": "APC; Deputy Leader, 10th Assembly",
+   "is_current": false,
+   "photo_url": "/img/korede.jpg"
+  },
+  {
+   "seat_key": "state",
+   "sort": 4,
+   "years": "Current",
+   "name": "Dr. Mohammed Mai Bukar, PhD",
+   "note": "APC",
+   "is_current": true,
+   "photo_url": "/img/member.jpg"
+  },
+  {
+   "seat_key": "reps",
+   "sort": 1,
+   "years": "1999 – 2003",
+   "name": "Barr. Mohammed Wakil",
+   "note": "House Majority Leader; from Damboa",
+   "is_current": false,
+   "photo_url": "/img/wakil.jpg"
+  },
+  {
+   "seat_key": "reps",
+   "sort": 2,
+   "years": "2003 – 2011",
+   "name": "Hon. Mohammed Ali Ndume",
+   "note": "ANPP; Minority Leader from 2007; from Gwoza",
+   "is_current": false,
+   "photo_url": "/img/ndume.jpg"
+  },
+  {
+   "seat_key": "reps",
+   "sort": 3,
+   "years": "2011 – 2015",
+   "name": "Hon. Peter Biye Gumtha",
+   "note": "ANPP",
+   "is_current": false,
+   "photo_url": null
+  },
+  {
+   "seat_key": "reps",
+   "sort": 4,
+   "years": "2015 – 2019",
+   "name": "Hon. Asabe Vilita Bashir",
+   "note": "APC",
+   "is_current": false,
+   "photo_url": null
+  },
+  {
+   "seat_key": "reps",
+   "sort": 5,
+   "years": "2019 – present",
+   "name": "Hon. Ahmadu Usman Jaha",
+   "note": "APC; from Gwoza; re-elected 2023",
+   "is_current": true,
+   "photo_url": "/img/jaha.jpg"
+  },
+  {
+   "seat_key": "senate",
+   "sort": 1,
+   "years": "1999 – 2003",
+   "name": "Sen. Abubakar Mahdi",
+   "note": "PDP",
+   "is_current": false,
+   "photo_url": null
+  },
+  {
+   "seat_key": "senate",
+   "sort": 2,
+   "years": "2003 – 2011",
+   "name": "Sen. Omar Hambagda",
+   "note": "ANPP",
+   "is_current": false,
+   "photo_url": null
+  },
+  {
+   "seat_key": "senate",
+   "sort": 3,
+   "years": "2011 – present",
+   "name": "Sen. Mohammed Ali Ndume",
+   "note": "APC; from Gwoza; former Senate Leader",
+   "is_current": true,
+   "photo_url": "/img/ndume.jpg"
+  }
+ ],
+ "stakeholders": [
+  {
+   "grp": "Traditional rulers",
+   "grp_sort": 1,
+   "sort": 1,
+   "name": "Alhaji Zanna Lawan Maina",
+   "title": "District Head of Damboa",
+   "status": "Current",
+   "bio": "Head of the traditional institution in Damboa District. Damboa was one of the districts of the Borno Emirate before the Damboa Emirate Council was established.",
+   "achievements": [
+    "Custodian of Damboa's traditions and community peace",
+    "Works with the council on returns and resettlement"
+   ],
+   "is_current": true,
+   "photo_url": "/img/zanna.jpg",
+   "show": true
+  },
+  {
+   "grp": "Traditional rulers",
+   "grp_sort": 1,
+   "sort": 2,
+   "name": "Village heads (Lawans) and ward heads (Bulamas)",
+   "title": "All 10 wards",
+   "status": "To be added",
+   "bio": "A directory of village and ward heads, by ward, from the District Head's office.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "In government",
+   "grp_sort": 2,
+   "sort": 1,
+   "name": "Prof. Baba Mallam Gana",
+   "title": "Commissioner for Health and Human Services, Borno State",
+   "status": "2023 – present",
+   "bio": "A medical doctor, consultant urological surgeon, academic and public health administrator from Damboa. He leads Borno State's Ministry of Health and Human Services.",
+   "achievements": [
+    "Commissioner for Health and Human Services (reassigned 18 May 2026; resumed the portfolio 3 June 2026)",
+    "Consultant urological surgeon and academic",
+    "Appointed North-East Regional Coordinator for BATmedics, November 2026"
+   ],
+   "is_current": true,
+   "photo_url": "/img/mgana.jpg",
+   "show": true
+  },
+  {
+   "grp": "In government",
+   "grp_sort": 2,
+   "sort": 2,
+   "name": "Engr. Prof. Babagana Gutti",
+   "title": "Vice-Chancellor, Kashim Ibrahim University",
+   "status": "Oct 2024 – present",
+   "bio": "Appointed substantive Vice-Chancellor by Governor Babagana Zulum in October 2024, and continues to lead the institution under its new name, Kashim Ibrahim University.",
+   "achievements": [
+    "Substantive Vice-Chancellor since October 2024",
+    "Led the university through its renaming to Kashim Ibrahim University"
+   ],
+   "is_current": true,
+   "photo_url": "/img/gutti.jpg",
+   "show": true
+  },
+  {
+   "grp": "In government",
+   "grp_sort": 2,
+   "sort": 3,
+   "name": "Mala A. Waziri",
+   "title": "Permanent Secretary, Borno State Civil Service",
+   "status": "Feb 2025 – present",
+   "bio": "Selected through the state civil service examination and sworn in on 4 February 2025, representing Damboa LGA among five new Permanent Secretaries.",
+   "achievements": [
+    "Selected on merit through the civil service examination",
+    "Sworn in as Permanent Secretary, 4 February 2025"
+   ],
+   "is_current": true,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "In government",
+   "grp_sort": 2,
+   "sort": 4,
+   "name": "Engr. (Dr.) Mohammed Abba Gana",
+   "title": "Former Minister of the Federal Capital Territory",
+   "status": "FCT Minister 2001 – 2003",
+   "bio": "Born in Damboa in 1943. Earlier a Commissioner in the old North-Eastern State, he served in President Olusegun Obasanjo's cabinet as Minister of the FCT, then as Special Adviser to Vice President Atiku Abubakar.",
+   "achievements": [
+    "Minister of the FCT, 8 Feb 2001 – 17 Jul 2003",
+    "Special Adviser to the Vice President, 2003 – 22 Jun 2006",
+    "Commissioner, old North-Eastern State"
+   ],
+   "is_current": false,
+   "photo_url": "/img/abbagana.jpg",
+   "show": true
+  },
+  {
+   "grp": "In government",
+   "grp_sort": 2,
+   "sort": 5,
+   "name": "Barr. Mohammed Wakil",
+   "title": "Former Minister of State for Power",
+   "status": "2014 – 2015",
+   "bio": "Appointed Minister of State for Power under President Goodluck Jonathan. He earlier represented Damboa/Gwoza/Chibok in the House of Representatives, where he was Majority Leader.",
+   "achievements": [
+    "Minister of State for Power, 5 Mar 2014 – May 2015",
+    "House of Representatives Majority Leader, 1999 – 2003",
+    "PDP National Vice Chairman (North-East)"
+   ],
+   "is_current": false,
+   "photo_url": "/img/wakil.jpg",
+   "show": true
+  },
+  {
+   "grp": "In government",
+   "grp_sort": 2,
+   "sort": 6,
+   "name": "Prof. Adamu Garba Alooma",
+   "title": "Former Executive Chairman, Damboa LGA",
+   "status": "2020 – 2022",
+   "bio": "Professor of banking and finance and former Dean of Management Sciences, University of Maiduguri.",
+   "achievements": [
+    "Executive Chairman of Damboa LGA, Dec 2020 – Dec 2022",
+    "Former Dean of Management Sciences, University of Maiduguri"
+   ],
+   "is_current": false,
+   "photo_url": "/img/alooma.jpg",
+   "show": true
+  },
+  {
+   "grp": "In government",
+   "grp_sort": 2,
+   "sort": 7,
+   "name": "Other commissioners and senior officials",
+   "title": "Borno State and federal",
+   "status": "To be added",
+   "bio": "Serving commissioners, permanent secretaries, board chairs and federal appointees from Damboa.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Religious leaders",
+   "grp_sort": 3,
+   "sort": 1,
+   "name": "Chief Imam, Damboa Central Mosque",
+   "title": "Damboa town",
+   "status": "To be added",
+   "bio": "Name and history to be supplied by the mosque committee.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Religious leaders",
+   "grp_sort": 3,
+   "sort": 2,
+   "name": "Imams of Juma'at mosques",
+   "title": "Across the LGA",
+   "status": "To be added",
+   "bio": "Directory by ward.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Religious leaders",
+   "grp_sort": 3,
+   "sort": 3,
+   "name": "Church leaders",
+   "title": "Damboa LGA",
+   "status": "To be added",
+   "bio": "Leaders of churches in the LGA.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Elders and patrons",
+   "grp_sort": 4,
+   "sort": 1,
+   "name": "Comrade Modu Shettima",
+   "title": "Elder of Damboa",
+   "status": "",
+   "bio": "Listed among the elders of Damboa. Biography and achievements to be recorded through the elders' history project.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Elders and patrons",
+   "grp_sort": 4,
+   "sort": 2,
+   "name": "Alhaji Abaya Lawan",
+   "title": "Elder of Damboa",
+   "status": "",
+   "bio": "Listed among the elders of Damboa. Biography and achievements to be recorded through the elders' history project.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Elders and patrons",
+   "grp_sort": 4,
+   "sort": 3,
+   "name": "Alhaji Bulama Korede",
+   "title": "Elder of Damboa",
+   "status": "",
+   "bio": "Listed among the elders of Damboa. Biography and achievements to be recorded through the elders' history project.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Elders and patrons",
+   "grp_sort": 4,
+   "sort": 4,
+   "name": "Karagama M. Kauji",
+   "title": "Elder of Damboa",
+   "status": "",
+   "bio": "Listed among the elders of Damboa. Biography and achievements to be recorded through the elders' history project.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Elders and patrons",
+   "grp_sort": 4,
+   "sort": 5,
+   "name": "Hon. Grema Umar",
+   "title": "Elder of Damboa",
+   "status": "",
+   "bio": "Listed among the elders of Damboa. Biography and achievements to be recorded through the elders' history project.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Elders and patrons",
+   "grp_sort": 4,
+   "sort": 6,
+   "name": "Modu Yerima Gumsuri",
+   "title": "Elder of Damboa",
+   "status": "",
+   "bio": "Listed among the elders of Damboa. Biography and achievements to be recorded through the elders' history project.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Elders and patrons",
+   "grp_sort": 4,
+   "sort": 7,
+   "name": "Babagana Musa Kauji",
+   "title": "Elder of Damboa",
+   "status": "",
+   "bio": "Listed among the elders of Damboa. Biography and achievements to be recorded through the elders' history project.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Elders and patrons",
+   "grp_sort": 4,
+   "sort": 8,
+   "name": "Alhaji Kaumi Damboa",
+   "title": "Elder of Damboa",
+   "status": "",
+   "bio": "Listed among the elders of Damboa. Biography and achievements to be recorded through the elders' history project.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": "/img/kaumi.jpg",
+   "show": true
+  },
+  {
+   "grp": "Elders and patrons",
+   "grp_sort": 4,
+   "sort": 9,
+   "name": "Alamin Mohammed Gumsuri",
+   "title": "Elder of Damboa",
+   "status": "",
+   "bio": "Listed among the elders of Damboa. Biography and achievements to be recorded through the elders' history project.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Elders and patrons",
+   "grp_sort": 4,
+   "sort": 10,
+   "name": "Alhaji Darman Korede",
+   "title": "Elder of Damboa",
+   "status": "",
+   "bio": "Listed among the elders of Damboa. Biography and achievements to be recorded through the elders' history project.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Elders and patrons",
+   "grp_sort": 4,
+   "sort": 11,
+   "name": "Alhaji Bukar Petrol",
+   "title": "Elder of Damboa",
+   "status": "",
+   "bio": "Listed among the elders of Damboa. Biography and achievements to be recorded through the elders' history project.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Women and youth",
+   "grp_sort": 5,
+   "sort": 1,
+   "name": "Women leader",
+   "title": "Damboa LGA",
+   "status": "To be added",
+   "bio": "Women's leader and women's associations.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Women and youth",
+   "grp_sort": 5,
+   "sort": 2,
+   "name": "Youth leader",
+   "title": "Damboa LGA",
+   "status": "To be added",
+   "bio": "Youth council and youth associations.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  },
+  {
+   "grp": "Women and youth",
+   "grp_sort": 5,
+   "sort": 3,
+   "name": "Damboa students' union",
+   "title": "Tertiary institutions",
+   "status": "To be added",
+   "bio": "Student body representing Damboa indigenes.",
+   "achievements": [],
+   "is_current": false,
+   "photo_url": null,
+   "show": true
+  }
+ ],
+ "wards": [
+  {
+   "n": 1,
+   "name": "Ajigin (A)",
+   "councillor": null,
+   "councillor_phone": null,
+   "villages": [
+    "Ajigin Mairi I",
+    "Ajigin Mairi II",
+    "Auma",
+    "Hong",
+    "Shettima Abogu",
+    "Ndoksa",
+    "Chirelia",
+    "Ajigin Bulamari",
+    "Galmasku",
+    "Bulbul"
+   ],
+   "polling_units": [
+    "Ajigin Mairi I",
+    "Ajigin Mairi Ii",
+    "Auma",
+    "Hong",
+    "Shettima Abogu",
+    "Ndoksa",
+    "Chirelia",
+    "Ajigin Bulamari I",
+    "Galmasku",
+    "Bulbul",
+    "Ajigin Mairi Iii",
+    "Ajigin Mairi Iv",
+    "Auma Pri. Sch.",
+    "Hong Shettimari",
+    "Shettima Abogu Pri. Sch.",
+    "Chirellia Pri. Sch.",
+    "Ajigin Bulamari Ii",
+    "Galmasku Mulimari"
+   ]
+  },
+  {
+   "n": 2,
+   "name": "Ajigin (B)",
+   "councillor": null,
+   "councillor_phone": null,
+   "villages": [
+    "Talala B. Kolomi",
+    "Malumti",
+    "Gorgore",
+    "Talala Pri. Sch.",
+    "Gorgori Pri. Sch.",
+    "Goramcha"
+   ],
+   "polling_units": [
+    "Talala B. Kolomi",
+    "Malumti",
+    "Gorgore",
+    "Talala Pri. Sch.",
+    "Gorgori Pri. Sch.",
+    "Gorabcha",
+    "Aja Goigoi",
+    "Bulama Alhaji",
+    "Bosoro/fulatari"
+   ]
+  },
+  {
+   "n": 3,
+   "name": "Azur / Multe / Forfor",
+   "councillor": null,
+   "councillor_phone": null,
+   "villages": [
+    "Kauji Pri. Sch. A",
+    "Kauji Pri. Sch. B",
+    "Azur Lawanti",
+    "Multe Lawanti",
+    "Sabon Gari",
+    "Wajiroko",
+    "Forfor",
+    "Mulgula",
+    "Sokotoko",
+    "Koboa",
+    "Mungule"
+   ],
+   "polling_units": [
+    "Kauji Pri. Sch. A",
+    "Kauji Pri. Sch. B",
+    "Azur Lawanti",
+    "Multe Lawanti",
+    "Sabon Gari",
+    "Wajiroko",
+    "Forfor",
+    "Mulgula",
+    "Shokotoko",
+    "Koboa",
+    "Mungule",
+    "Kauji Kasugula",
+    "Kauji Dalawari",
+    "Kukam Bori",
+    "Kauji Kakiliti",
+    "Kauji Bayan Kogi",
+    "Azir Kamarchi",
+    "Azir Chalakeri",
+    "Multe Bulabulin",
+    "Multe Primary School",
+    "Sabon Gari Lawanti",
+    "Alaramma",
+    "Yakshari",
+    "Forfor Gwange",
+    "Burum Lawanti"
+   ]
+  },
+  {
+   "n": 4,
+   "name": "Bego / Yerwa / Ngurna",
+   "councillor": null,
+   "councillor_phone": null,
+   "villages": [
+    "Mufurundi",
+    "Bego",
+    "Koljiri",
+    "Njaba",
+    "Yerwa",
+    "Gazama",
+    "Ngirna Lawanti",
+    "Mude",
+    "Kangarwa"
+   ],
+   "polling_units": [
+    "Mufurundi",
+    "Bego",
+    "Koljiri",
+    "Njaba",
+    "Yarwa",
+    "Gazama Kura",
+    "Ngirna Lawanti",
+    "Mude",
+    "Kangarwa",
+    "Mufurundi Pri. School",
+    "Bego Mairi",
+    "Njaba Pri. School",
+    "Yarwa Pri. School",
+    "Gazama Gana"
+   ]
+  },
+  {
+   "n": 5,
+   "name": "Damboa",
+   "councillor": null,
+   "councillor_phone": null,
+   "villages": [
+    "Damboa Lawanti",
+    "State Low Cost",
+    "Fertilizer Store I",
+    "Fertilizer Store II",
+    "Ajari / Alkaliri I",
+    "Ajari / Alkaliri II",
+    "Magistrate Court",
+    "Bulama Burarti I",
+    "Bulama Burarti II",
+    "Shuwari I",
+    "Shuwari II"
+   ],
+   "polling_units": [
+    "Damboa Lawanti",
+    "State Low Cost",
+    "Fertilizer Store I",
+    "Fertilizer Store Ii",
+    "Ajari / Alkaliri I",
+    "Ajari / Alkaliri Ii",
+    "Magistrate Court",
+    "Bulama Burarti I",
+    "Bulama Burarti Ii",
+    "Shuwari I",
+    "Shuwari Ii",
+    "Bulama Gambo",
+    "Duriya Dina",
+    "Marghi I Guest Inn",
+    "Alhaji Grema Umar",
+    "Mugula Water",
+    "Bulama Kundili",
+    "Central Pri. Sch.",
+    "Limanti",
+    "Late Lawan Makinta",
+    "Madinatu Pri. Sch.",
+    "Ube Pri. Sch.",
+    "Old Market",
+    "Nrc Secreteriat",
+    "Gss Damboa",
+    "Aburi Lawanti",
+    "Bulama Mustapha Banki",
+    "Late Alh. Kyari Multe",
+    "Sherrif Kukawa Junction",
+    "Late Bulama Mulima",
+    "Shuwari Pri. School",
+    "Abachari Lawanti",
+    "Bulama Umar"
+   ]
+  },
+  {
+   "n": 6,
+   "name": "Gumsuri / Misakurbudu",
+   "councillor": null,
+   "councillor_phone": null,
+   "villages": [
+    "Gumsuri I",
+    "Gumsuri II",
+    "Garjang",
+    "Wovi",
+    "Kurbutu/Misa",
+    "Komdi",
+    "Kaya I",
+    "Kaya II",
+    "Litawa",
+    "Balakar"
+   ],
+   "polling_units": [
+    "Gumsuri I",
+    "Gumsuri Ii",
+    "Garjan",
+    "Wovi",
+    "Kurbutu/misa",
+    "Komdi",
+    "Kaya I",
+    "Kaya Ii",
+    "Litawa",
+    "Balakar",
+    "Kuwari",
+    "Bolari Clinic",
+    "Garjan Lawanti",
+    "Kurbutu Pri. School",
+    "Komdi Pri. School",
+    "Kaya Pri. School"
+   ]
+  },
+  {
+   "n": 7,
+   "name": "Kafa / Mafi",
+   "councillor": null,
+   "councillor_phone": null,
+   "villages": [
+    "Kafa Lawanti",
+    "Mangusum",
+    "Jemari",
+    "Kauwaram",
+    "Golgi",
+    "Buk",
+    "Mafi Lawanti",
+    "Kafa Kugula",
+    "Bulama A. Kaulama"
+   ],
+   "polling_units": [
+    "Kafa Lawanti I",
+    "Mangusum",
+    "Jamneri",
+    "Kauwaram",
+    "Golgi",
+    "Buk",
+    "Mafi Lawanti",
+    "Kafa Kusugula",
+    "Bulama A. Kaulama",
+    "Kafa Lawanti Ii",
+    "Golgi Abuja",
+    "Kafa Pri. School"
+   ]
+  },
+  {
+   "n": 8,
+   "name": "Mulgwai / Kopchi",
+   "councillor": null,
+   "councillor_phone": null,
+   "villages": [
+    "Shamagai Malari",
+    "Bulajilan",
+    "Ngwalimiri",
+    "Ndagu",
+    "Kwamgilari",
+    "Izzige",
+    "Kilakesa",
+    "Mulgwai Lawanti",
+    "Ba'Ale",
+    "Yazza",
+    "Shawa",
+    "Malamri"
+   ],
+   "polling_units": [
+    "Shamagai Malari",
+    "Bulajilang",
+    "Ngwalimiri",
+    "Ndagu",
+    "Kwamgilari",
+    "Izzige",
+    "Kilakesa",
+    "Mulgwai Lawanti",
+    "Ba'ale",
+    "Yazza",
+    "Shawa",
+    "Malamri",
+    "Shamagai",
+    "Ngwalimiri Primary School",
+    "Kavili",
+    "Mulgwai Pri. School",
+    "Ba'ale Lawanti",
+    "Malamri Primary School",
+    "Kilakesa Primary School"
+   ]
+  },
+  {
+   "n": 9,
+   "name": "Nzuda / Wuyaram",
+   "councillor": null,
+   "councillor_phone": null,
+   "villages": [
+    "Hausari Pri. Sch.",
+    "Nzuda Malaharam",
+    "Nzuda Mairi",
+    "Sabon Gari Kauji",
+    "Anakwari",
+    "Matangale",
+    "Buwori Alimiri",
+    "Malaharam B. Bukar",
+    "Muyamram Kasuwa",
+    "Kachalla Burari"
+   ],
+   "polling_units": [
+    "Hausari Pri. Sch.",
+    "Nzuda Malaharam",
+    "Nzuda Mairi",
+    "Sabon Gari Kauji",
+    "Anakwari",
+    "Matangale",
+    "Buwori Alimiri",
+    "Malaharam B. Bukar",
+    "Wuyaram Kasuwa",
+    "Kachalla Burari",
+    "Goni Shettima",
+    "Bulama Shettima",
+    "Kachalla Bulari Gana",
+    "Late Bukar Kotono",
+    "Nzuda Sum Summa",
+    "Imeli",
+    "Alimiri",
+    "Kaduna Mafiya",
+    "Wuyaram Lawanti",
+    "Late Lawan Saleh",
+    "Tolomari",
+    "Anangwanshari",
+    "Ambaduwari",
+    "Matangale Lawanti"
+   ]
+  },
+  {
+   "n": 10,
+   "name": "Wawa / Korede",
+   "councillor": null,
+   "councillor_phone": null,
+   "villages": [
+    "Korede Lawanti",
+    "Adika",
+    "Kinzagiraji",
+    "Wawa Lawanti",
+    "Abuluti/Luwa",
+    "Bulajimbam",
+    "Gorgube",
+    "Dusula",
+    "Koljiri Korede",
+    "Kasuarawa",
+    "Tusuwa",
+    "Abulam Pri. Sch."
+   ],
+   "polling_units": [
+    "Korede Lawanti",
+    "Adika",
+    "Kinzagiraji",
+    "Wawa Lawanti",
+    "Abuluti/luwa",
+    "Bulajimbam",
+    "Gorgube",
+    "Dusula",
+    "Koljiri Korede",
+    "Kasuarawa",
+    "Tusuwa",
+    "Abulam Pri. Sch.",
+    "Korede Pri. School",
+    "Adika Lawanti",
+    "Wawa Kura",
+    "Luwa Pri. School",
+    "Korede Korjiri Ii",
+    "Kausarawa Pri. School",
+    "Abulam Kasugula"
+   ]
+  }
+ ],
+ "services": [
+  {
+   "key": "secretariat",
+   "sort": 1,
+   "icon": "🏛",
+   "name": "Damboa LGA Secretariat",
+   "location": "Maiduguri Road, Damboa",
+   "description": "Seat of the council. Phone and email to be added.",
+   "show_prices": false
+  },
+  {
+   "key": "inec",
+   "sort": 2,
+   "icon": "🗳",
+   "name": "INEC Damboa LGA Office",
+   "location": "Near the LGA Secretariat, Maiduguri Road",
+   "description": "Voter registration and PVC collection.",
+   "show_prices": false
+  },
+  {
+   "key": "ict",
+   "sort": 3,
+   "icon": "💻",
+   "name": "BICTDA LG ICT Centre",
+   "location": "Damboa town",
+   "description": "Free computer access, internet, training and CBT exams.",
+   "show_prices": false
+  },
+  {
+   "key": "hospital",
+   "sort": 4,
+   "icon": "🏥",
+   "name": "Damboa General Hospital",
+   "location": "Damboa town",
+   "description": "General care and nutrition stabilisation centre.",
+   "show_prices": false
+  },
+  {
+   "key": "clinics",
+   "sort": 5,
+   "icon": "🩺",
+   "name": "MdM clinics – GTS and Hausari",
+   "location": "Damboa town",
+   "description": "Free primary health care.",
+   "show_prices": false
+  },
+  {
+   "key": "market",
+   "sort": 6,
+   "icon": "🛒",
+   "name": "Damboa Main Market",
+   "location": "Damboa town",
+   "description": "Market days to be added. Weekly food prices published here.",
+   "show_prices": true
+  }
+ ],
+ "prices": [
+  {
+   "sort": 1,
+   "item": "Maize",
+   "measure": "Mudu",
+   "price": null,
+   "change": null
+  },
+  {
+   "sort": 2,
+   "item": "Sorghum (guinea corn)",
+   "measure": "Mudu",
+   "price": null,
+   "change": null
+  },
+  {
+   "sort": 3,
+   "item": "Millet",
+   "measure": "Mudu",
+   "price": null,
+   "change": null
+  },
+  {
+   "sort": 4,
+   "item": "Beans",
+   "measure": "Mudu",
+   "price": null,
+   "change": null
+  },
+  {
+   "sort": 5,
+   "item": "Groundnut",
+   "measure": "Mudu",
+   "price": null,
+   "change": null
+  },
+  {
+   "sort": 6,
+   "item": "Local rice",
+   "measure": "Mudu",
+   "price": null,
+   "change": null
+  },
+  {
+   "sort": 7,
+   "item": "Gum arabic",
+   "measure": "kg",
+   "price": null,
+   "change": null
+  }
+ ],
+ "partners": [
+  {
+   "sort": 1,
+   "name": "Médecins du Monde",
+   "description": "Free integrated health services at two clinics, GTS and Hausari."
+  },
+  {
+   "sort": 2,
+   "name": "International Medical Corps",
+   "description": "Nutrition stabilisation centre at Damboa General Hospital."
+  },
+  {
+   "sort": 3,
+   "name": "Borno SEMA",
+   "description": "Emergency response, including flood assessments."
+  },
+  {
+   "sort": 4,
+   "name": "Ministry of Reconstruction, Rehabilitation and Resettlement",
+   "description": "Return and resettlement programmes."
+  }
+ ],
+ "heritage": [
+  {
+   "sort": 1,
+   "icon": "🌳",
+   "title": "Sambisa Forest",
+   "body": "Part of the Sambisa Forest lies in Damboa. It was gazetted as a forest reserve in 1958 and a game reserve in 1978; from the 1970s visitors came on safari to see lions, elephants and leopards, and 62 bird species have been recorded there.",
+   "note": "A symbol of the natural heritage Damboa hopes to restore."
+  },
+  {
+   "sort": 2,
+   "icon": "🛒",
+   "title": "Damboa Main Market",
+   "body": "For generations the meeting point of farmers and traders from across southern Borno. Destroyed in 2014 and reopened in 2016.",
+   "note": null
+  },
+  {
+   "sort": 3,
+   "icon": "🌾",
+   "title": "Farmlands and gum arabic",
+   "body": "Grains, groundnuts, beans and gum arabic from Damboa's farmlands feed the region and its markets.",
+   "note": null
+  },
+  {
+   "sort": 4,
+   "icon": "🥁",
+   "title": "Marghi language and culture",
+   "body": "The Marghi language, with its Damboa and Mulgwai varieties, and the shared Marghi–Kanuri heritage of Damboa families.",
+   "note": "Festivals and cultural sites to be documented with elders."
+  },
+  {
+   "sort": 5,
+   "icon": "🏺",
+   "title": "The calabash trade",
+   "body": "Calabash farming drew Kanuri traders to Damboa and shaped the town's mixed heritage.",
+   "note": null
+  },
+  {
+   "sort": 6,
+   "icon": "📍",
+   "title": "Historic sites",
+   "body": "Old settlements, the District Head's palace, early schools and mosques.",
+   "note": "To be added with the elders' history project."
+  }
+ ],
+ "officials": [
+  {
+   "sort": 1,
+   "office": "Executive Chairman",
+   "name": "Hon. Ali Mohammed Kauji",
+   "phone": null
+  },
+  {
+   "sort": 2,
+   "office": "Vice Chairman",
+   "name": null,
+   "phone": null
+  },
+  {
+   "sort": 3,
+   "office": "Secretary to the Local Government",
+   "name": null,
+   "phone": null
+  },
+  {
+   "sort": 4,
+   "office": "Director of Administration",
+   "name": null,
+   "phone": null
+  },
+  {
+   "sort": 5,
+   "office": "Head of Information Unit",
+   "name": null,
+   "phone": null
+  },
+  {
+   "sort": 6,
+   "office": "Treasurer",
+   "name": null,
+   "phone": null
+  }
+ ],
+ "pages": [
+  {
+   "slug": "chairman",
+   "office_key": "chairman",
+   "name": "Hon. Ali Mohammed Kauji",
+   "role": "Executive Chairman",
+   "subtitle": "Damboa Local Government",
+   "years": "Jan 2024 – present",
+   "photo_url": "/img/chair.jpg",
+   "tag": "Hon. Ali Mohammed Kauji",
+   "bio": "Hon. Ali Mohammed Kauji (APC) was elected Executive Chairman of Damboa Local Government in January 2024 and returned in the council elections of 13 December 2025. He was sworn in for his current term on 29 January 2026. His administration works in line with the transformation agenda of His Excellency, Prof. Babagana Umara Zulum, mni, FNSE, Executive Governor of Borno State.",
+   "priorities": [
+    "Resettlement and security",
+    "Education",
+    "Health and nutrition",
+    "Agriculture and markets",
+    "Youth, skills and digital jobs",
+    "Roads, water and sanitation"
+   ],
+   "office_info": "LGA Secretariat, Maiduguri Road, Damboa. Visiting days to be added."
+  },
+  {
+   "slug": "mai-bukar",
+   "office_key": "state-member",
+   "name": "Dr. Mohammed Mai Bukar, PhD",
+   "role": "Member, Borno State House of Assembly",
+   "subtitle": "Damboa State Constituency",
+   "years": "",
+   "photo_url": "/img/member.jpg",
+   "tag": "Dr. Mohammed Mai Bukar, PhD",
+   "bio": "Dr. Mohammed Mai Bukar holds a doctorate (PhD) and is the All Progressives Congress (APC) candidate for Damboa State Constituency in the Borno State House of Assembly election of 6 February 2027. He previously served as an aide to the Executive Governor of Borno State, Prof. Babagana Umara Zulum, and in 2026 obtained the APC nomination forms for the Damboa seat.",
+   "priorities": [
+    "Education and skills",
+    "Health and nutrition",
+    "Security and resettlement",
+    "Farming and markets",
+    "Youth and digital jobs",
+    "Roads and water"
+   ],
+   "office_info": "Damboa town – address, phone and opening hours to be added."
+  }
+ ],
+ "settings": {
+  "welcome_en": "In line with the transformation agenda of His Excellency, Prof. Babagana Umara Zulum, mni, FNSE, Executive Governor of Borno State, I welcome you to the official website of Damboa Local Government. Dear people of Damboa, this website is our new front door. Here you will find what your council is doing, the projects in every ward, and how to reach us. It belongs to all of us, across every ward and every community. Tell us what you need, follow our progress, and hold us to our promises. Together we will keep building a Damboa we are proud of.",
+  "welcome_ha": "Bisa tsarin sauyi na Mai Girma Gwamna, Farfesa Babagana Umara Zulum, mni, FNSE, Gwamnan Jihar Borno, ina maraba da ku zuwa shafin hukuma na Karamar Hukumar Damboa. Ya ku al'ummar Damboa, wannan shafin shi ne sabuwar kofarmu. A nan za ku ga abin da karamar hukumarku ke yi, ayyukan da ake yi a kowace mazaba, da yadda za ku same mu. Namu ne baki daya, a kowace mazaba da kowace al'umma. Ku fada mana bukatunku, ku bi ci gabanmu, ku kuma rike mu da alkawuranmu. Tare za mu ci gaba da gina Damboa da za mu yi alfahari da ita.",
+  "hero_en": "The home of the Marghi people and a centre of agriculture and commerce in southern Borno. Rebuilding, reconnecting and moving forward together.",
+  "hero_ha": "Gidan al'ummar Marghi kuma cibiyar noma da kasuwanci a kudancin Borno. Muna sake ginawa, sake hadewa da ci gaba tare.",
+  "registered_parties": "22",
+  "population_est": "~341,700",
+  "land_area": "~4,800 km²",
+  "leaders": [
+   {
+    "role": "President, Federal Republic of Nigeria",
+    "name": "His Excellency, Bola Ahmed Tinubu, GCFR",
+    "photo_url": "/img/tinubu.jpg"
+   },
+   {
+    "role": "Executive Governor, Borno State",
+    "name": "His Excellency, Prof. Babagana Umara Zulum, mni, FNSE",
+    "photo_url": "/img/zulum.jpg"
+   },
+   {
+    "role": "Shehu of Borno",
+    "name": "HRH Alhaji (Dr.) Abubakar Ibn Umar Garbai Al-Amin El-Kanemi",
+    "photo_url": "/img/shehu.jpg"
+   }
+  ],
+  "incumbents": [
+   [
+    "Governor, Borno State",
+    "Prof. Babagana Umara Zulum",
+    "APC"
+   ],
+   [
+    "Senator, Borno South",
+    "Sen. Mohammed Ali Ndume",
+    "APC"
+   ],
+   [
+    "Member, House of Reps (Damboa/Gwoza/Chibok)",
+    "Hon. Ahmadu Usman Jaha",
+    "APC"
+   ],
+   [
+    "Member, State Assembly (Damboa)",
+    "Dr. Mohammed Mai Bukar, PhD",
+    "APC"
+   ],
+   [
+    "Executive Chairman, Damboa LGA",
+    "Hon. Ali Mohammed Kauji",
+    "APC"
+   ]
+  ],
+  "elections": [
+   [
+    "2027-01-16",
+    "Presidential and National Assembly"
+   ],
+   [
+    "2027-02-06",
+    "Governorship and State House of Assembly"
+   ]
+  ],
+  "district_head": "Alhaji Zanna Lawan Maina"
+ },
+ "photos": {
+  "Hon. Malami Wakil Korede": "/img/korede.jpg",
+  "Hon. Ahmadu Usman Jaha": "/img/jaha.jpg",
+  "Hon. Mohammed Ali Ndume": "/img/ndume.jpg",
+  "Sen. Mohammed Ali Ndume": "/img/ndume.jpg",
+  "Dr. Mohammed Mai Bukar, PhD": "/img/member.jpg",
+  "Hon. Ali Mohammed Kauji": "/img/chair.jpg",
+  "Prof. Baba Mallam Gana": "/img/mgana.jpg",
+  "Prof. Babagana Umara Zulum": "/img/zulum.jpg",
+  "Hon. Habu Daja-Ali": "/img/daja.jpg",
+  "Prof. Adamu Garba Alooma": "/img/alooma.jpg",
+  "Engr. Prof. Babagana Gutti": "/img/gutti.jpg",
+  "Alhaji Kaumi Damboa": "/img/kaumi.jpg",
+  "Engr. (Dr.) Mohammed Abba Gana": "/img/abbagana.jpg",
+  "Barr. Mohammed Wakil": "/img/wakil.jpg",
+  "Alhaji Zanna Lawan Maina": "/img/zanna.jpg"
+ }
+}

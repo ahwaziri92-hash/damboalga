@@ -60,6 +60,7 @@ export function Seats({ seats, photos, wards, L }) {
           return <li key={h.id || h.years + h.name} className={h.is_current ? "cur" : ""}>{feat ? <Link href={`/legislators/${g.page_slug}`}>{inner}</Link> : inner}</li>; })}</ol>
         {!g.page_slug && <>
           {(g.updates || []).length > 0 && <><h4>{L === "ha" ? "Sabbin bayanai" : "Updates"}</h4><ul className="upd">{g.updates.map(u => <li key={u.text}><span className="note">{u.label}</span> {u.text}</li>)}</ul></>}
+          <Link className="btn btnlink ghost" style={{ marginRight: 8 }} href={`/news?tag=${encodeURIComponent(g.current_name)}`}>{L === "ha" ? "Labarai game da shi" : "News about him"} →</Link>
           {!form[g.key] ? <button className="btn" onClick={() => setForm(f => ({ ...f, [g.key]: true }))}>{L === "ha" ? "Tuntubi ofishinsa" : "Contact their office"}</button>
             : <FormSlot office={g.key} wards={wards} L={L} />}
         </>}

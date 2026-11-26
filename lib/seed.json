@@ -590,6 +590,49 @@
    "status": "published",
    "office_key": null,
    "image_url": "/img/history/livestock-2024.jpg"
+  },
+  {
+   "tags": [
+    "Hon. Malami Wakil Korede"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null,
+   "sources": [
+    {
+     "name": "Daily Trust",
+     "url": "https://dailytrust.com/lawan-emerges-borno-assembly-speaker-for-4th-consecutive-term/"
+    }
+   ],
+   "date_label": "13 Jun 2023",
+   "sort_date": "2023-06-13",
+   "category": "Governance",
+   "title": "Hon. Malami Wakil Korede named Deputy Majority Leader of the Borno Assembly",
+   "body": "At the inauguration of the 10th Borno State House of Assembly, Speaker Abdulkarim Lawan announced the House's principal officers. Damboa's member, Hon. Malami Wakil Korede, was named Deputy Majority Leader, alongside House Leader Dige Mohammed (Kala Balge), Chief Whip Baba Ali Modu (Mafa) and Deputy Whip Audu Mustapha (Magumeri).",
+   "source_name": "Blueprint",
+   "source_url": "https://blueprint.ng/borno-assembly-elects-lawan-speaker-for-4th-time-crisis-stalls-ogun-inauguration-protest-in-jigawa/"
+  },
+  {
+   "tags": [
+    "Hon. Malami Wakil Korede"
+   ],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null,
+   "sources": [],
+   "date_label": "Apr 2025",
+   "sort_date": "2025-04-17",
+   "category": "Safety",
+   "title": "Hon. Korede joins Assembly call for action on renewed attacks, including in Damboa",
+   "body": "Hon. Malami Wakil Korede was among the members who contributed to a motion in the Borno State House of Assembly that passed a vote of confidence in President Tinubu and Vice-President Shettima. The members said Borno had seen relative peace, but warned of a resurgence of terrorist activity in several communities, Damboa among them.",
+   "source_name": "Vanguard",
+   "source_url": "https://www.vanguardngr.com/2025/04/borno-assembly-passes-vote-of-confidence-on-tinubu-shettima/"
   }
  ],
  "chairmen": [

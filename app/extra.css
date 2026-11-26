@@ -33,3 +33,5 @@
 .hmore{all:unset;cursor:pointer;color:var(--g);font-weight:700;margin-top:6px;display:inline-block}
 .hsrc{margin-top:12px;padding:10px 12px;background:var(--gl);border-radius:10px;font-size:.9rem}.hsrc ul{margin:.3em 0 0;padding-left:18px}.hsrc a{color:var(--g)}
 @media(min-width:820px){.hcard{display:grid;grid-template-columns:320px 1fr}.hthumb{aspect-ratio:auto;min-height:100%}}
+.hthumb{background:#f4f6f4}.hthumb img{object-fit:cover}
+.hthumb img.fit{object-fit:contain;background:#fff}

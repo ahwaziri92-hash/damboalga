@@ -5,7 +5,7 @@ function Story({ n, ha }) {
   const paras = String(n.body || "").split(/\n\s*\n/).filter(Boolean);
   const srcs = [...(n.source_url ? [{ name: n.source_name, url: n.source_url }] : []), ...(n.sources || [])].filter(x => x && x.url);
   return <article className={`hcard${open ? " open" : ""}`}>
-    <button className="hthumb" onClick={() => setOpen(!open)} aria-label={n.title}>{n.image_url ? <img src={n.image_url} alt="" loading="lazy" /> : <span />}</button>
+    <button className="hthumb" onClick={() => setOpen(!open)} aria-label={n.title}>{n.image_url ? <img src={n.image_url} alt="" loading="lazy" className={/marghi|1976/.test(n.image_url) ? "fit" : ""} /> : <span />}</button>
     <div className="hbody">
       <span className="hy2">{n.date_label}</span>
       <h3 onClick={() => setOpen(!open)}>{n.title}</h3>

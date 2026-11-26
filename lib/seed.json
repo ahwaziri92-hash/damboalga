@@ -289,7 +289,7 @@
    "video_url": null,
    "source_name": null,
    "source_url": null,
-   "status": "draft",
+   "status": "published",
    "office_key": "state-member",
    "image_url": null,
    "sources": []
@@ -361,7 +361,7 @@
    "video_url": null,
    "source_name": null,
    "source_url": null,
-   "status": "draft",
+   "status": "published",
    "office_key": "state-member",
    "image_url": null,
    "sources": []

@@ -73,25 +73,6 @@
    "sources": []
   },
   {
-   "date_label": "Jul 2026",
-   "sort_date": "2026-07-01",
-   "category": "Governance",
-   "title": "Damboa LGA receives ₦945.6m federal allocation for July",
-   "body": "Damboa's monthly allocation for July 2026 was about ₦945.6 million, up 28% on the previous month, or roughly ₦2,767 per resident. The council will publish how allocations are spent on this site.",
-   "tags": [
-    "Hon. Ali Mohammed Kauji"
-   ],
-   "service_key": null,
-   "is_video": false,
-   "video_url": null,
-   "source_name": "OurLgaMoni",
-   "source_url": "https://ourlgamoni.com/lga/borno/damboa",
-   "status": "published",
-   "office_key": "chairman",
-   "image_url": null,
-   "sources": []
-  },
-  {
    "date_label": "9 Jun 2026",
    "sort_date": "2026-06-09",
    "category": "Health",
@@ -151,7 +132,7 @@
    "sort_date": "2026-01-29",
    "category": "Governance",
    "title": "Hon. Ali Mohammed Kauji sworn in as Executive Chairman",
-   "body": "Following the 13 December 2025 council elections, new council chairmen were sworn in across Borno State. The State Government also approved direct payment of allocations to local governments.",
+   "body": "Following the 13 December 2025 council elections, Hon. Ali Mohammed Kauji was sworn in as Executive Chairman of Damboa Local Government, alongside new council chairmen across Borno State.",
    "tags": [
     "Hon. Ali Mohammed Kauji"
    ],
@@ -265,7 +246,7 @@
    "sort_date": "2024-01-01",
    "category": "Education",
    "title": "Rehabilitation approved for Wovi, Girls Technical and Day Secondary schools",
-   "body": "The State Government approved rehabilitation of Wovi Primary and Junior Secondary School, Government Girls Technical School and Government Day Secondary School, plus a ₦50m running grant for the Higher Islamic College.",
+   "body": "The State Government approved rehabilitation of Wovi Primary and Junior Secondary School, Government Girls Technical School and Government Day Secondary School, and support for the Higher Islamic College.",
    "tags": [],
    "service_key": null,
    "is_video": false,
@@ -308,7 +289,7 @@
    "video_url": null,
    "source_name": null,
    "source_url": null,
-   "status": "published",
+   "status": "draft",
    "office_key": "state-member",
    "image_url": null,
    "sources": []
@@ -380,7 +361,7 @@
    "video_url": null,
    "source_name": null,
    "source_url": null,
-   "status": "published",
+   "status": "draft",
    "office_key": "state-member",
    "image_url": null,
    "sources": []

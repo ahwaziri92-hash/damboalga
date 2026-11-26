@@ -7,7 +7,9 @@ const q = v => v === null || v === undefined ? "null"
   : Array.isArray(v) && v.every(x => typeof x === "string") ? `array[${v.map(q).join(",")}]::text[]`
   : typeof v === "object" ? `'${JSON.stringify(v).replace(/'/g, "''")}'::jsonb`
   : `'${String(v).replace(/'/g, "''")}'`;
-const ins = (table, rows) => rows.map(r => `insert into ${table} (${Object.keys(r).join(",")}) values (${Object.values(r).map(q).join(",")});`).join("\n");
+const JSONB = new Set(["sources", "updates", "candidate"]);
+const val = (k, v) => JSONB.has(k) && v !== null && v !== undefined ? `'${JSON.stringify(v).replace(/'/g, "''")}'::jsonb` : q(v);
+const ins = (table, rows) => rows.map(r => `insert into ${table} (${Object.keys(r).join(",")}) values (${Object.entries(r).map(([k, v]) => val(k, v)).join(",")});`).join("\n");
 let out = "-- Seed content for the Damboa LGA website (generated)\n";
 out += ins("news", S.news) + "\n";
 out += ins("chairmen", S.chairmen) + "\n";

@@ -19,6 +19,7 @@ export const TABLES = {
       ["office_key", "Office", "select", { options: OFFICES, blank: true }],
       ["source_name", "Source name", "text"],
       ["source_url", "Source link", "text"],
+      ["sources", "More sources (JSON list of {name, url})", "json"],
       ["status", "Status", "select", { options: [["draft", "Draft"], ["pending", "Waiting for approval"], ["published", "Published"]] }],
     ],
     defaults: () => ({ status: "draft", category: "Governance", date_label: new Date().toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }), sort_date: new Date().toISOString().slice(0, 10), tags: [] }),
@@ -34,7 +35,7 @@ export const TABLES = {
   },
   seats: {
     label: "Legislative seats", icon: "seat", pk: "key", order: ["sort", true], title: r => r.title, sub: r => r.current_name,
-    fields: [["key", "Key (state, reps, senate)", "text", { required: true, lockOnEdit: true }], ["sort", "Order", "number"], ["chamber", "Chamber", "text"], ["title", "Seat title", "text"], ["area", "Area covered", "text"], ["current_name", "Current holder", "text"], ["current_years", "Years", "text"], ["photo_url", "Photo", "image"], ["page_slug", "Own page address (blank if none)", "text"], ["updates", "Updates (JSON list of {label, text})", "json"]],
+    fields: [["key", "Key (state, reps, senate)", "text", { required: true, lockOnEdit: true }], ["sort", "Order", "number"], ["chamber", "Chamber", "text"], ["title", "Seat title", "text"], ["area", "Area covered", "text"], ["current_name", "Current holder", "text"], ["current_years", "Years", "text"], ["photo_url", "Photo", "image"], ["page_slug", "Own page address (blank if none)", "text"], ["updates", "Updates (JSON list of {label, text})", "json"], ["candidate", "Candidate shown under the seat (JSON {name, label, photo_url, slug}, or null)", "json"]],
   },
   seat_holders: {
     label: "Seat history", icon: "scroll", pk: "id", order: ["sort", true], title: r => r.name, sub: r => `${r.seat_key} · ${r.years}`,

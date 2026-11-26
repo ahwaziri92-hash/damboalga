@@ -47,6 +47,7 @@ create table if not exists news (
   image_url text,
   source_name text,
   source_url text,
+  sources jsonb default '[]',
   status text not null default 'draft' check (status in ('draft','pending','published')),
   office_key text,
   created_by uuid references auth.users(id),
@@ -63,7 +64,7 @@ create table if not exists chairmen (
 
 create table if not exists seats (
   key text primary key, sort int default 0, chamber text, title text, area text,
-  current_name text, current_years text, photo_url text, page_slug text, updates jsonb default '[]'
+  current_name text, current_years text, photo_url text, page_slug text, updates jsonb default '[]', candidate jsonb
 );
 
 create table if not exists seat_holders (
@@ -193,3 +194,8 @@ drop policy if exists p_media_write on storage.objects;
 create policy p_media_write on storage.objects for insert with check (bucket_id = 'media' and auth.uid() is not null);
 drop policy if exists p_media_update on storage.objects;
 create policy p_media_update on storage.objects for update using (bucket_id = 'media' and auth.uid() is not null);
+
+-- upgrades for databases created before these columns existed
+alter table seats add column if not exists candidate jsonb;
+alter table news add column if not exists sources jsonb default '[]';
+alter table heritage add column if not exists image_url text;

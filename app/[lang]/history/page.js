@@ -2,6 +2,7 @@ import Link from "next/link";
 import { langOf, tr } from "@/lib/i18n";
 import { getNews, getWards } from "@/lib/data";
 import ContactForm from "@/components/ContactForm";
+import HistoryList from "@/components/HistoryList";
 export const revalidate = 300;
 export default async function History({ params }) {
   const L = await langOf(params); const t = tr(L); const ha = L === "ha";
@@ -12,13 +13,7 @@ export default async function History({ params }) {
   return <>
     <h1>{t("history")}</h1>
     <p>{ha ? "Labarin Damboa daga tushe zuwa yau: mutanenmu, sana'o'inmu, wahalhalun da muka sha, da yadda muka sake gini." : "The story of Damboa from its roots to today: our people, our trades, the hard years and how we rebuilt. Each story shows where it comes from."}</p>
-    <div className="htl">{items.map((n, i) => <div key={n.id || i} className="hi">
-      <span className="hy2">{n.date_label}</span>
-      <h3>{n.title}</h3>
-      {n.image_url && <img className="nimgbig" src={n.image_url} alt="" />}
-      <p>{n.body}</p>
-      {n.source_url && <a className="nsrc" href={n.source_url} target="_blank" rel="noopener">{ha ? "Asali" : "Source"}: {n.source_name || "link"} ↗</a>}
-    </div>)}</div>
+    <HistoryList items={items} L={L} />
     <section className="two"><div>
       <h2>{ha ? "Aiko da labarin tarihi" : "Share a story with the archive"}</h2>
       <p className="note">{ha ? "Kana da labari, hoto ko takarda game da tarihin Damboa? Aiko mana. Sashen Yada Labarai zai tuntube ka." : "Do you remember how your village was founded, a festival, a craft, or a leader from the past? Do you have old photos or documents? Send us a short note and the Information Unit will contact you to record it."}</p>

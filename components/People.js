@@ -50,6 +50,9 @@ export function Seats({ seats, photos, wards, L }) {
         <Avatar name={g.current_name} src={g.photo_url} />
         <div style={{ flex: 1, textAlign: "left" }}><span className="tag">{g.chamber}</span><h3 style={{ margin: ".15em 0" }}>{g.current_name}</h3><div className="note">{g.title}</div><div className="yrs">{g.current_years}</div></div><span className="chev">▾</span>
       </button>
+      {g.candidate?.name && <Link className="cand" href={g.candidate.slug ? `/legislators/${g.candidate.slug}` : "#"}>
+        <Avatar name={g.candidate.name} src={g.candidate.photo_url} /><div><span className="note">{L === "ha" ? "Dan takara" : "Candidate"}</span><b>{g.candidate.name}</b><span className="note">{g.candidate.label}</span></div>{g.candidate.slug && <span className="go">{L === "ha" ? "Bude shafi" : "Open page"} →</span>}
+      </Link>}
       <div className="seatbody">
         {g.area && <p className="note" style={{ marginTop: 12 }}><b>{L === "ha" ? "Yanki" : "Area"}:</b> {g.area}</p>}
         <h4>{L === "ha" ? "Wadanda suka rike kujerar tun 1999" : "Holders of this seat since 1999"}</h4>

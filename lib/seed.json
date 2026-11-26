@@ -16,7 +16,8 @@
    "source_url": null,
    "status": "draft",
    "office_key": "chairman",
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "17 Nov 2026",
@@ -32,7 +33,8 @@
    "source_url": "https://thenews-chronicle.com/farmer-alerts-soldiers-as-unexploded-bomb-is-found-near-damboa-borno/",
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "Nov 2026",
@@ -50,7 +52,8 @@
    "source_url": null,
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "13 Aug 2026",
@@ -66,7 +69,8 @@
    "source_url": null,
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "Jul 2026",
@@ -84,7 +88,8 @@
    "source_url": "https://ourlgamoni.com/lga/borno/damboa",
    "status": "published",
    "office_key": "chairman",
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "9 Jun 2026",
@@ -100,7 +105,8 @@
    "source_url": "https://internationalmedicalcorps.org/story/a-new-beginning-for-damboa/",
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "3 Jun 2026",
@@ -118,7 +124,8 @@
    "source_url": null,
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "3 Feb 2026",
@@ -136,7 +143,8 @@
    "source_url": "https://www.vanguardngr.com/2026/02/borno-acting-governor-unveils-hon-jahas-sports-women-devt-centres-in-damboa/",
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "29 Jan 2026",
@@ -154,7 +162,8 @@
    "source_url": null,
    "status": "published",
    "office_key": "chairman",
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "6 Dec 2025",
@@ -172,7 +181,8 @@
    "source_url": "https://fmino.gov.ng/tag/damboa/",
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "4 Feb 2025",
@@ -190,7 +200,8 @@
    "source_url": null,
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "Nov 2024",
@@ -208,7 +219,8 @@
    "source_url": null,
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "Nov 2024",
@@ -226,7 +238,8 @@
    "source_url": null,
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "Oct 2024",
@@ -244,7 +257,8 @@
    "source_url": null,
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "2024",
@@ -260,7 +274,8 @@
    "source_url": null,
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "2024",
@@ -276,39 +291,8 @@
    "source_url": null,
    "status": "published",
    "office_key": null,
-   "image_url": null
-  },
-  {
-   "date_label": "6 Sep 2016",
-   "sort_date": "2016-09-06",
-   "category": "Economy",
-   "title": "Damboa main market reopens after two years",
-   "body": "Two years after it was destroyed, Damboa's main market reopened with the return of peace, led by the then caretaker chairman and the District Head.",
-   "tags": [],
-   "service_key": "market",
-   "is_video": false,
-   "video_url": null,
-   "source_name": null,
-   "source_url": null,
-   "status": "published",
-   "office_key": null,
-   "image_url": null
-  },
-  {
-   "date_label": "1976",
-   "sort_date": "1976-01-01",
-   "category": "History",
-   "title": "Damboa Local Government Area is created",
-   "body": "Damboa LGA was created in the 1976 Local Government Reform, with its headquarters in Damboa town.",
-   "tags": [],
-   "service_key": null,
-   "is_video": false,
-   "video_url": null,
-   "source_name": null,
-   "source_url": null,
-   "status": "published",
-   "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "Nov 2026",
@@ -326,7 +310,8 @@
    "source_url": null,
    "status": "published",
    "office_key": "state-member",
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "9 Sep 2026",
@@ -342,7 +327,8 @@
    "source_url": null,
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "May 2026",
@@ -360,7 +346,8 @@
    "source_url": null,
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "5 Feb 2026",
@@ -376,7 +363,8 @@
    "source_url": null,
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "2026",
@@ -394,119 +382,233 @@
    "source_url": null,
    "status": "published",
    "office_key": "state-member",
-   "image_url": null
+   "image_url": null,
+   "sources": []
   },
   {
    "date_label": "From about the 14th century",
    "sort_date": "1300-01-01",
    "category": "History",
-   "title": "The Marghi settle the plains of southern Borno",
-   "body": "Marghi oral history and early written accounts describe how, as the Borno kingdom expanded, many Marghi communities moved gradually south. From about the fourteenth century they were living on the plains they occupy today, the 'Marghi babal' of the Damboa and Gwoza districts. Their chiefs were known as Ptil, advised by a council of elders.",
+   "title": "The Marghi: Damboa’s first people",
+   "body": "The first people of Damboa are the Marghi. Their own traditions say they came down from the Mandara mountains and the highlands of what is now northern Cameroon, moving not all at once but clan by clan – a clan is called a fal in Marghi. As the Borno kingdom grew stronger, many Marghi groups drifted further south, and by about the fourteenth century they were living on the open plains they still farm today.\n\nScholars describe several branches of the Marghi. The \"Plain Marghi\", or Marghi babal, live in the Gwoza and Damboa districts. The Marghi Putai, in the west around Damboa and Chibok, lived closest to the Kanuri and took on much of their culture; their chiefs were called Mai. Among other Marghi groups the chief is the Ptil, advised by a council of elders.\n\nThe Marghi are, above all, farmers. Being known as a great farmer has always been a man’s pride. Before colonial times families lived in round and rectangular mud houses with thatched roofs, fenced with dried corn stalks. Over the centuries the Marghi also learned to live alongside their neighbours – Kanuri, Kilba and Babur – and most Marghi people speak two or three languages.\n\nDo you know the story of how your family or village came to Damboa? Share it with the archive below.",
    "tags": [],
    "service_key": null,
    "is_video": false,
    "video_url": null,
-   "source_name": "101 Last Tribes – Margi people",
-   "source_url": "https://www.101lasttribes.com/tribes/margi.html",
+   "source_name": "Wikipedia – Marghi people",
+   "source_url": "https://en.wikipedia.org/wiki/Margi_people",
+   "sources": [
+    {
+     "name": "101 Last Tribes – Margi people",
+     "url": "https://www.101lasttribes.com/tribes/margi.html"
+    },
+    {
+     "name": "Neptune Prime – Brief history of Marghi, by Sunday Ijuptil Buba",
+     "url": "https://neptuneprime.com.ng/brief-history-of-marghi-by-sunday-ijuptil-buba/"
+    }
+   ],
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": "/img/history/marghi-plains.svg"
   },
   {
    "date_label": "Long ago",
    "sort_date": "1800-01-01",
    "category": "History",
-   "title": "How calabash farming made Damboa a meeting place",
-   "body": "Damboa grew rich on calabash farming. Kanuri traders travelled back and forth to buy calabash, and over time many settled and married into Marghi families. That is why so many Damboa families today are part Marghi and part Kanuri, while some families remain fully Marghi or fully Kanuri.",
+   "title": "How the calabash made Damboa a meeting place",
+   "body": "Long before roads and lorries, Damboa was known for one crop above others: the calabash. Grown on the farms around the town, dried and cleaned, the calabash became bowls, water carriers, ladles and food covers in homes across Borno. In northeastern Nigeria calabashes are also an art form, their golden-brown shells etched with fine patterns of animals, people and shapes.\n\nThe calabash trade brought money to Damboa, and money brought traders. Kanuri merchants began travelling back and forth to buy calabash. Many of them stayed, built homes and married into Marghi families. Over the generations this created the Damboa we know: many families are part Marghi and part Kanuri, while some remain fully Marghi or fully Kanuri.\n\nToday Damboa is still sometimes called \"Marghi State\", and its motto, \"Centre of Agriculture and Commerce\", goes back to these days of farming and trade. The mixed heritage is one of the town’s strengths – a place where different peoples have long met, traded and become one community.",
    "tags": [],
-   "service_key": null,
+   "service_key": "market",
    "is_video": false,
    "video_url": null,
    "source_name": "Wikipedia – Damboa",
    "source_url": "https://en.wikipedia.org/wiki/Damboa",
+   "sources": [
+    {
+     "name": "Penn Museum – Calabashes in Northern Nigeria",
+     "url": "https://www.penn.museum/sites/expedition/calabashes-in-northern-nigeria/"
+    }
+   ],
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": "/img/history/calabash.svg"
   },
   {
    "date_label": "Traditional crafts",
    "sort_date": "1900-01-01",
    "category": "History",
-   "title": "The musket-makers of Damboa",
-   "body": "Damboa was known beyond its farms and market for its craftsmen. Reports describe a guild in the town that made muskets for local hunters. Elders who remember the smiths and their workshops are invited to share their stories with the Information Unit.",
+   "title": "Smiths and hunters of Damboa",
+   "body": "Damboa’s farms and market were not its only fame. The town was also known for skilled smiths. Reporters writing about Damboa in 2014 noted that the town had a guild of craftsmen who made long guns for local hunters.\n\nThese were the \"Dane guns\" found across West Africa. The name goes back to long-barrelled flintlock muskets that Danish and Norwegian traders brought to the coast before the mid-1800s. Over time local blacksmiths learned to make their own, and the guns replaced the bow and spear for hunting game. In a district on the edge of the Sambisa bush, hunting was part of everyday life, and hunters’ groups were respected members of the community.\n\nThe smiths’ fire, hammer and anvil also made hoes, axes and knives for farmers – the tools that fed Damboa. We would like to record this craft before it is forgotten. If your family were smiths or hunters, please tell us their story.",
    "tags": [],
    "service_key": null,
    "is_video": false,
    "video_url": null,
    "source_name": "Council on Foreign Relations (citing the Wall Street Journal)",
    "source_url": "https://www.cfr.org/blog/nigerias-boko-haram-becoming-territorial",
+   "sources": [
+    {
+     "name": "Wikipedia – Dane gun",
+     "url": "https://en.wikipedia.org/wiki/Dane_gun"
+    }
+   ],
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": "/img/history/smiths.svg"
   },
   {
-   "date_label": "1958 and 1978",
-   "sort_date": "1958-01-01",
+   "date_label": "1970s",
+   "sort_date": "1970-01-01",
    "category": "History",
-   "title": "Sambisa becomes a forest reserve, then a game reserve",
-   "body": "Part of the Sambisa Forest lies in Damboa. It was gazetted as a forest reserve in 1958 and as a game reserve in 1978. In the years that followed, visitors came on safari to see lions, elephants and leopards, and 62 bird species were recorded there.",
+   "title": "Sambisa: when Damboa’s forest drew safari visitors",
+   "body": "Part of the great Sambisa Forest lies within Damboa. Its name comes from Sambisa village, on the border with Gwoza. The forest covers about 518 square kilometres, and in colonial times a Sambisa Game Reserve covered more than 2,200 square kilometres in its eastern part.\n\nFrom around 1970 the reserve became a safari destination. Visitors stayed in cabins and lodges to watch leopards, lions, elephants and hyenas. Bird experts recorded 62 species there, and Sambisa was once thought to be the last place in Nigeria where wild ostriches lived. In 1991 the Borno State Government made the reserve part of the Chad Basin National Park.\n\nThe forest suffered badly from poaching, tree-cutting and, from 2013, insurgency: the lodges fell down, roads became overgrown and the animals declined. But the memory of Sambisa as a place of wildlife and visitors is part of Damboa’s heritage – and a hope for the future.",
    "tags": [],
    "service_key": null,
    "is_video": false,
    "video_url": null,
-   "source_name": null,
-   "source_url": null,
+   "source_name": "Wikipedia – Sambisa Forest",
+   "source_url": "https://en.wikipedia.org/wiki/Sambisa_Forest",
+   "sources": [],
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": "/img/history/sambisa.svg"
+  },
+  {
+   "date_label": "3 February 1976",
+   "sort_date": "1976-02-03",
+   "category": "History",
+   "title": "Borno State and Damboa Local Government are born",
+   "body": "On 3 February 1976 the military Head of State, General Murtala Mohammed, created seven new states, Borno among them, out of the old North-Eastern State. It was one of the most important days in Nigeria’s administrative history – and it came just ten days before he was killed in a failed coup. Group Captain Mustapha Amin became the first Governor of Borno State in March 1976.\n\nThe same year the national Local Government Reform set up local government councils as a third tier of government, and Damboa Local Government Area was created, with its headquarters in Damboa town. The reform gave elected councils responsibility for local services, while traditional rulers kept their role as custodians of culture and tradition.\n\nThe full list of Damboa’s chairmen since 1976 is being compiled from council records. If you have photos or documents from the council’s early years, please share them.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": "Daily Trust – X-raying Murtala’s 7 states at 50",
+   "source_url": "https://dailytrust.com/x-raying-murtalas-7-states-at-50/",
+   "sources": [
+    {
+     "name": "Wikipedia – Borno State",
+     "url": "https://en.wikipedia.org/wiki/Borno_State"
+    },
+    {
+     "name": "Wikipedia – List of governors of Borno State",
+     "url": "https://en.wikipedia.org/wiki/List_of_governors_of_Borno_State"
+    },
+    {
+     "name": "Wikipedia – Damboa",
+     "url": "https://en.wikipedia.org/wiki/Damboa"
+    }
+   ],
+   "status": "published",
+   "office_key": null,
+   "image_url": "/img/history/lga-1976.svg"
   },
   {
    "date_label": "2014",
    "sort_date": "2014-07-18",
    "category": "History",
    "title": "The hard year: Damboa under attack",
-   "body": "Insurgents attacked Damboa in January 2014 and again in July. On 18 July 2014 they overran the town, killing many people and burning homes and the main market. More than 15,000 residents were forced to flee, according to the National Emergency Management Agency. Damboa remembers all who lost their lives.",
+   "body": "2014 was the hardest year in Damboa’s modern history. In January insurgents attacked the army base in the town and were driven back. On 4 July they returned with a larger force and attacked the base and the police station, and many families fled.\n\nOn 18 July 2014 the town itself was overrun. Homes were set on fire and many people were killed; eyewitnesses said half of Damboa was burnt, including the main market. Telephone lines were cut, and the National Emergency Management Agency reported that more than 15,000 people were driven from their homes, most of them to Maiduguri.\n\nDamboa remembers everyone who lost their lives that year, and honours the soldiers, police, hunters and young volunteers who stood to defend the town. Families who wish to have a loved one remembered in this archive may contact the Information Unit.",
    "tags": [],
    "service_key": null,
    "is_video": false,
    "video_url": null,
    "source_name": "Anadolu Agency",
    "source_url": "https://aa.com.tr/en/world/28-militants-killed-in-fresh-battle-with-nigeria-troops-/109101",
+   "sources": [
+    {
+     "name": "Wikipedia – Damboa",
+     "url": "https://en.wikipedia.org/wiki/Damboa"
+    },
+    {
+     "name": "Wikipedia – Second Battle of Damboa",
+     "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Damboa"
+    }
+   ],
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": "/img/history/remember-2014.svg"
   },
   {
    "date_label": "August 2014",
    "sort_date": "2014-08-25",
    "category": "History",
    "title": "Troops retake Damboa",
-   "body": "In late August 2014 Nigerian troops drove the insurgents out of Damboa and took down the flag they had raised over the town. It was the first step on a long road home for families scattered across Maiduguri and beyond.",
+   "body": "Weeks after the town fell, Nigerian troops pushed back into Damboa. By late August 2014 the insurgents had been driven out, and the flag they had raised over the town was pulled down.\n\nThe fight was not over. In the months that followed attackers tried several times to re-enter the town and were repelled by the army’s 195 Battalion. Damboa became a garrison town, and the Maiduguri road was often dangerous.\n\nBut retaking the town was the first step on the long road home. For the thousands of Damboa families living in camps and with relatives in Maiduguri, it meant that one day they could return.",
    "tags": [],
    "service_key": null,
    "is_video": false,
    "video_url": null,
    "source_name": "ICIR Nigeria – Nigerian Military Reclaims Damboa",
    "source_url": "https://www.icirnigeria.org/nigerian-military-reclaims-damboa/",
+   "sources": [
+    {
+     "name": "Anadolu Agency",
+     "url": "https://aa.com.tr/en/world/28-militants-killed-in-fresh-battle-with-nigeria-troops-/109101"
+    }
+   ],
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": "/img/history/retaken.svg"
   },
   {
    "date_label": "2015 onwards",
    "sort_date": "2015-06-01",
    "category": "History",
    "title": "The road home",
-   "body": "As the Maiduguri–Damboa–Biu road reopened under military escort, traders, farmers and families began to return. The motor park filled again, and the town slowly came back to life.",
+   "body": "Return began with the road. As the military reopened the Maiduguri–Damboa–Biu highway, vehicles started to run again, at first under escort. The Damboa motor park filled with buses and lorries, carrying traders, farmers and families back to the town.\n\nPeople came home to burnt houses and empty streets, and began again. Families repaired their compounds, farmers went back to the land closest to town, and traders set up wherever they could. Aid agencies brought food, water and health care to returnees and to those still displaced.\n\nEach family that returned made it easier for the next. Slowly, Damboa came back to life.",
    "tags": [],
    "service_key": null,
    "is_video": false,
    "video_url": null,
-   "source_name": "ICIR Nigeria",
+   "source_name": "ICIR Nigeria – Life after Boko Haram: residents return home",
    "source_url": "https://www.icirnigeria.org/life-after-boko-haram-gradually-residents-return-home/",
+   "sources": [],
    "status": "published",
    "office_key": null,
-   "image_url": null
+   "image_url": "/img/history/road-home.svg"
+  },
+  {
+   "date_label": "6 September 2016",
+   "sort_date": "2016-09-06",
+   "category": "History",
+   "title": "Damboa market reopens after two years",
+   "body": "On Tuesday 6 September 2016 the Damboa township market opened its gates again, two years after it was closed by the attacks of 2014. The caretaker chairman of the council, Alhaji Abu Hong, performed the reopening at a ceremony in Damboa, saying the market could reopen because peace had returned to the area.\n\nHe urged traders to be security-conscious and to work with the security agencies to keep the peace. The District Head of Damboa, Malam Abdullahi Damboa, said he was happy to see the market open again and pledged his support to the state government in keeping the market peaceful.\n\nFor a town built on trade, the reopening of the market was a turning point: it brought buyers from the villages, gave work to traders and porters, and showed everyone that Damboa was open for business again.",
+   "tags": [],
+   "service_key": "market",
+   "is_video": false,
+   "video_url": null,
+   "source_name": "Tribune Online – Damboa LG re-opens Damboa market as peace returns to Borno",
+   "source_url": "https://tribuneonlineng.com/damboa-lg-re-opens-damboa-market-peace-returns-borno",
+   "sources": [
+    {
+     "name": "Vanguard – Damboa market, shut after 2014 attacks, re-opens",
+     "url": "https://www.vanguardngr.com/?p=684030"
+    },
+    {
+     "name": "ICIR Nigeria – Popular market near Sambisa re-opens",
+     "url": "https://www.icirnigeria.org/popular-market-close-sambisa-re-opens-borno/"
+    }
+   ],
+   "status": "published",
+   "office_key": null,
+   "image_url": "/img/history/market-2016.svg"
+  },
+  {
+   "date_label": "25 March 2024",
+   "sort_date": "2024-03-25",
+   "category": "History",
+   "title": "The Monday livestock market returns",
+   "body": "On Monday 25 March 2024 the famous Damboa Monday Market – the livestock market – reopened, and buyers and sellers came from across Borno State and beyond.\n\nResidents described it as a wonderful day and a clear sign that relative peace, security and stability had returned. Livestock dealers came in from the surrounding villages with cattle, sheep and goats, and townspeople expected the market to bring visitors and business back to Damboa.\n\nThe return of the Monday Market completed the story that began with the township market in 2016: Damboa was once again a centre of agriculture and commerce for southern Borno.",
+   "tags": [],
+   "service_key": "market",
+   "is_video": false,
+   "video_url": null,
+   "source_name": "Radio Ndarason Internationale – Excitement as popular Damboa livestock market reopens",
+   "source_url": "https://ndarason.com/en/?p=52530",
+   "sources": [],
+   "status": "published",
+   "office_key": null,
+   "image_url": "/img/history/livestock-2024.svg"
   }
  ],
  "chairmen": [
@@ -577,12 +679,18 @@
    "sort": 1,
    "chamber": "Borno State House of Assembly",
    "title": "Member, Damboa State Constituency",
-   "current_name": "Dr. Mohammed Mai Bukar, PhD",
-   "current_years": "APC candidate, 2027",
-   "photo_url": "/img/member.jpg",
-   "page_slug": "mai-bukar",
+   "current_name": "Hon. Malami Wakil Korede",
+   "current_years": "2019 – present",
+   "photo_url": "/img/korede.jpg",
+   "page_slug": null,
    "updates": [],
-   "area": "Damboa State Constituency"
+   "area": "Damboa State Constituency",
+   "candidate": {
+    "name": "Dr. Mohammed Mai Bukar, PhD",
+    "label": "APC candidate, February 2027 election",
+    "photo_url": "/img/member.jpg",
+    "slug": "mai-bukar"
+   }
   },
   {
    "key": "reps",
@@ -603,7 +711,8 @@
      "text": "Projects in Damboa include ambulances, farm equipment and a 600-seat mini stadium."
     }
    ],
-   "area": "Damboa, Gwoza and Chibok LGAs"
+   "area": "Damboa, Gwoza and Chibok LGAs",
+   "candidate": null
   },
   {
    "key": "senate",
@@ -624,7 +733,8 @@
      "text": "Fourth term in the Senate; earlier two terms in the House for Gwoza/Damboa/Chibok."
     }
    ],
-   "area": "Askira/Uba, Bayo, Biu, Chibok, Damboa, Gwoza, Hawul, Kwaya Kusar, Shani"
+   "area": "Askira/Uba, Bayo, Biu, Chibok, Damboa, Gwoza, Hawul, Kwaya Kusar, Shani",
+   "candidate": null
   }
  ],
  "holders": [
@@ -654,15 +764,6 @@
    "note": "APC; Deputy Leader, 10th Assembly. Term ends 2027",
    "is_current": true,
    "photo_url": "/img/korede.jpg"
-  },
-  {
-   "seat_key": "state",
-   "sort": 4,
-   "years": "2027 –",
-   "name": "Dr. Mohammed Mai Bukar, PhD",
-   "note": "APC candidate, February 2027 election",
-   "is_current": false,
-   "photo_url": "/img/member.jpg"
   },
   {
    "seat_key": "reps",
@@ -698,7 +799,7 @@
    "name": "Hon. Asabe Vilita Bashir",
    "note": "APC",
    "is_current": false,
-   "photo_url": null
+   "photo_url": "/img/asabe.jpg"
   },
   {
    "seat_key": "reps",
@@ -1626,7 +1727,7 @@
    "sort": 1,
    "icon": "forest",
    "title": "Sambisa Forest",
-   "body": "Part of the Sambisa Forest lies in Damboa. It was gazetted as a forest reserve in 1958 and a game reserve in 1978; from the 1970s visitors came on safari to see lions, elephants and leopards, and 62 bird species have been recorded there.",
+   "body": "Part of the Sambisa Forest lies in Damboa. From around 1970 it was a safari destination where visitors watched leopards, lions, elephants and hyenas, and 62 bird species have been recorded there. In 1991 it became part of the Chad Basin National Park.",
    "note": "A symbol of the natural heritage Damboa hopes to restore."
   },
   {
@@ -1824,6 +1925,7 @@
   "Alhaji Kaumi Damboa": "/img/kaumi.jpg",
   "Engr. (Dr.) Mohammed Abba Gana": "/img/abbagana.jpg",
   "Barr. Mohammed Wakil": "/img/wakil.jpg",
-  "Alhaji Zanna Lawan Maina": "/img/zanna.jpg"
+  "Alhaji Zanna Lawan Maina": "/img/zanna.jpg",
+  "Hon. Asabe Vilita Bashir": "/img/asabe.jpg"
  }
 }

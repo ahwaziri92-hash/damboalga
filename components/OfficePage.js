@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { NewsList } from "./News";
 import ContactForm from "./ContactForm";
+import Icon, { CAT_ICON } from "@/components/Icon";
 
 export default function OfficePage({ p, news, photos, wards, L, back }) {
   const tagged = news.filter(n => (n.tags || []).includes(p.tag) || n.office_key === p.office_key);
@@ -8,7 +9,7 @@ export default function OfficePage({ p, news, photos, wards, L, back }) {
   return <>
     <Link className="back" href={back[0]}>← {back[1]}</Link>
     <div className="hero mbhero" style={{ marginTop: 10 }}>
-      {p.photo_url ? <img src={p.photo_url} alt={p.name} style={{ width: 150, height: 180, objectFit: "cover", borderRadius: 14, border: "4px solid rgba(255,255,255,.4)" }} /> : <div className="ph" style={{ width: 150, height: 180 }}>👤</div>}
+      {p.photo_url ? <img src={p.photo_url} alt={p.name} style={{ width: 150, height: 180, objectFit: "cover", borderRadius: 14, border: "4px solid rgba(255,255,255,.4)" }} /> : <div className="ph" style={{ width: 150, height: 180 }}><Icon name="user" size={48} /></div>}
       <div><span className="tag" style={{ background: "#fff" }}>{p.subtitle}</span><h1 style={{ margin: ".2em 0" }}>{p.name}</h1><p style={{ margin: 0 }}>{p.role}{p.years ? ` · ${p.years}` : ""}</p></div>
     </div>
     <section className="two"><div>

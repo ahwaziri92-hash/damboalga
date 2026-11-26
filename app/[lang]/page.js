@@ -1,15 +1,16 @@
 import Link from "next/link";
-import { getLang, tr } from "@/lib/i18n";
+import { langOf, tr } from "@/lib/i18n";
 import { getNews, getSettings, getWards, getPhotoMap, getPage } from "@/lib/data";
 import { NewsList } from "@/components/News";
 import { HomeMap } from "@/components/WardMap";
+import Icon, { CAT_ICON } from "@/components/Icon";
 
 export const revalidate = 60;
-export default async function Home() {
-  const L = await getLang(); const t = tr(L); const ha = L === "ha";
+export default async function Home({ params }) {
+  const L = await langOf(params); const t = tr(L); const ha = L === "ha";
   const [news, s, wards, photos, chair] = await Promise.all([getNews(), getSettings(), getWards(), getPhotoMap(), getPage("chairman")]);
   const pus = wards.reduce((a, w) => a + (w.polling_units || []).length, 0);
-  const quick = [["/legislators", "🏛", ha ? "Tuntubi dan majalisarka" : "Contact your legislator"], ["/humanitarian", "🤝", ha ? "Bayar da rahoton bukata" : "Report a need"], ["/news", "📰", ha ? "Sabbin labarai" : "Latest news"], ["/leadership", "👥", ha ? "Shugabannin da suka gabata da na yanzu" : "Past and present leaders"], ["/services", "📍", ha ? "Ofisoshi da hidimomi" : "Offices and services"]];
+  const quick = [["/legislators", "landmark", ha ? "Tuntubi dan majalisarka" : "Contact your legislator"], ["/humanitarian", "help", ha ? "Bayar da rahoton bukata" : "Report a need"], ["/history", "scroll", ha ? "Taskar tarihin Damboa" : "Damboa history archive"], ["/news", "news", ha ? "Sabbin labarai" : "Latest news"], ["/leadership", "users", ha ? "Shugabannin da suka gabata da na yanzu" : "Past and present leaders"], ["/services", "pin", ha ? "Ofisoshi da hidimomi" : "Offices and services"]];
   return <>
     <div className="hero"><div><h1>{t("heroT")}</h1><p>{ha ? s.hero_ha : s.hero_en}</p></div>
       <div className="facts" style={{ gridTemplateColumns: "repeat(2,1fr)" }}>
@@ -24,7 +25,7 @@ export default async function Home() {
         <Link className="btn btnlink" href="/chairman">{t("chairPage")} →</Link></div></div>}
     <section className="two"><div><h2>{t("mapT")}</h2><HomeMap wards={wards} /><p className="note">{ha ? "Iyakokin mazabu daga GRID3 (2026)." : "Ward boundaries from GRID3 (2026)."} <Link href="/wards">{t("wards")} →</Link></p></div>
       <div><h2>{t("quick")}</h2><div className="grid quick" style={{ gridTemplateColumns: "1fr" }}>
-        {quick.map(q => <div key={q[0]} className="card"><Link href={q[0]}><span className="ico">{q[1]}</span>{q[2]}</Link></div>)}</div></div></section>
+        {quick.map(q => <div key={q[0]} className="card"><Link href={q[0]}><span className="ico"><Icon name={q[1]} /></span>{q[2]}</Link></div>)}</div></div></section>
     <section><h2>{t("latest")}</h2><NewsList items={news.slice(0, 3)} photos={photos} L={L} /><p><Link className="back" href="/news">{t("all")} →</Link></p></section>
   </>;
 }

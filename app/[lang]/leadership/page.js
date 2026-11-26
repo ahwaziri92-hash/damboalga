@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { getLang, tr } from "@/lib/i18n";
+import { langOf, tr } from "@/lib/i18n";
 import { getChairmen, getOfficials, getStakeholders, getNews, getPhotoMap, getSettings } from "@/lib/data";
 import { ChairmenTimeline, Stakeholders } from "@/components/People";
 import { Avatar } from "@/components/News";
 export const revalidate = 60;
-export default async function Leadership() {
-  const L = await getLang(); const t = tr(L); const ha = L === "ha";
+export default async function Leadership({ params }) {
+  const L = await langOf(params); const t = tr(L); const ha = L === "ha";
   const [ch, off, sk, news, photos, s] = await Promise.all([getChairmen(), getOfficials(), getStakeholders(), getNews(), getPhotoMap(), getSettings()]);
   return <>
     <h1>{t("leaders")}</h1><p className="note">{ha ? "Taba suna don ganin takaitaccen tarihinsa." : "Tap a name to read a short biography. Dates marked 'to confirm' will be checked against council records."}</p>

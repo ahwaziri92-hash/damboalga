@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { sb } from "@/lib/supabase";
 import { Field, cleanList } from "./Fields";
+import Icon from "@/components/Icon";
 
 export const refreshSite = () => fetch("/api/revalidate", { method: "POST" }).catch(() => {});
 
@@ -58,7 +59,7 @@ export default function TableEditor({ cfg, table, profile, filter }) {
   useEffect(() => { setRows(null); load(); }, [table]); // eslint-disable-line
   const shown = (rows || []).filter(r => !q || JSON.stringify(r).toLowerCase().includes(q.toLowerCase()));
   return <div>
-    <div className="atop"><h1>{cfg.icon} {cfg.label}</h1>{!cfg.noAdd && <button className="btn" onClick={() => setEdit(null)}>＋ Add</button>}</div>
+    <div className="atop"><h1 className="ah1"><Icon name={cfg.icon} size={24} /> {cfg.label}</h1>{!cfg.noAdd && <button className="btn" onClick={() => setEdit(null)}>＋ Add</button>}</div>
     <input className="asearch" placeholder="Search…" value={q} onChange={e => setQ(e.target.value)} />
     {err && <div className="aerr">{err}</div>}
     {!rows ? <p className="note">Loading…</p> : !shown.length ? <p className="empty">Nothing here yet.</p> :

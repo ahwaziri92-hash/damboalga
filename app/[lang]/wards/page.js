@@ -1,9 +1,9 @@
-import { getLang, tr } from "@/lib/i18n";
+import { langOf, tr } from "@/lib/i18n";
 import { getWards } from "@/lib/data";
 import WardMap from "@/components/WardMap";
 export const revalidate = 300;
-export default async function Wards() {
-  const L = await getLang(); const t = tr(L);
+export default async function Wards({ params }) {
+  const L = await langOf(params); const t = tr(L);
   const wards = await getWards();
   const total = wards.reduce((a, w) => a + w.polling_units.length, 0);
   return <>

@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { getLang, tr } from "@/lib/i18n";
+import { langOf, tr } from "@/lib/i18n";
 import { getNews, getSettings, getWards, getPhotoMap } from "@/lib/data";
 import { NewsList } from "@/components/News";
 export const revalidate = 300;
 const daysTo = d => Math.max(0, Math.ceil((new Date(d + "T08:00:00+01:00") - Date.now()) / 864e5));
 const fmt = d => new Date(d + "T12:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
-export default async function Politics() {
-  const L = await getLang(); const t = tr(L); const ha = L === "ha";
+export default async function Politics({ params }) {
+  const L = await langOf(params); const t = tr(L); const ha = L === "ha";
   const [news, s, wards, photos] = await Promise.all([getNews(), getSettings(), getWards(), getPhotoMap()]);
   const pus = wards.reduce((a, w) => a + w.polling_units.length, 0);
   const el = s.elections || [];

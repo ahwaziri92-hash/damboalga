@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { MAP } from "@/lib/mapdata";
+import Icon, { CAT_ICON } from "@/components/Icon";
 
 function Svg({ wards, sel, onPick, pins = true }) {
   let dots = "";
@@ -37,7 +38,7 @@ export default function WardMap({ wards, L = "en" }) {
       <div className="wardpanel">
         <span className="tag">Ward {w.n}</span><h2>{w.name}</h2>
         <div className="card" style={{ display: "flex", gap: 12, alignItems: "center", background: "var(--gl)", border: 0 }}>
-          <div className="ph" style={{ width: 64, height: 76, fontSize: "1.2rem" }}>👤</div>
+          <div className="ph" style={{ width: 64, height: 76 }}><Icon name="user" size={28} /></div>
           <div><div className="note">{L === "ha" ? "Kansila" : "Councillor"}</div><b>{w.councillor || (L === "ha" ? "Za a kara" : "To be added")}</b><div className="note">{w.councillor_phone || ""}</div></div>
         </div>
         <div className="facts" style={{ gridTemplateColumns: "1fr 1fr", marginTop: 10 }}>

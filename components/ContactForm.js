@@ -31,7 +31,7 @@ export default function ContactForm({ office = "lga", wards = [], topics = ["Roa
       <label>{L === "ha" ? "Sako" : "Message"}</label><textarea name="body" rows={4} required />
       <button className="btn" disabled={state === "sending"}>{state === "sending" ? "…" : (L === "ha" ? "Aika" : "Send")}</button>
       {state === "sent" && <div className="ok" style={{ display: "block" }}>{L === "ha" ? "Mun gode. An aika sakonka zuwa ofishin." : "Thank you. Your message has been sent to the office."}</div>}
-      {state === "demo" && <div className="ok" style={{ display: "block" }}>Demo mode: the database is not connected yet, so nothing was sent.</div>}
+      {state === "demo" && <div className="ok" style={{ display: "block" }}>{L === "ha" ? "Mun gode. (Samfuri: za a fara isar da sakonni da zarar an kunna tsarin karamar hukuma.)" : "Thank you. (Preview: messages will start reaching the office once the council’s system is switched on.)"}</div>}
       {state === "error" && <div className="ok" style={{ display: "block", background: "#fde8e8", color: "#8a1c1c" }}>Sorry, the message could not be sent. Please try again.</div>}
     </form>
   );

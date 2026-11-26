@@ -2,11 +2,12 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { sb, hasSupabase } from "@/lib/supabase";
+import Icon from "@/components/Icon";
 import { TABLES, ACCESS } from "./config";
 import TableEditor from "./TableEditor";
 import { Dashboard, Approvals, Messages, Settings, Users, MyPage } from "./Panels";
 
-const LABELS = { dash: ["🏠", "Dashboard"], approvals: ["⏳", "Approvals"], messages: ["✉️", "Messages"], settings: ["⚙️", "Settings"], users: ["🔑", "Users"], mypage: ["🏛", "My page"] };
+const LABELS = { dash: ["home", "Dashboard"], approvals: ["wait", "Approvals"], messages: ["inbox", "Messages"], settings: ["settings", "Settings"], users: ["key", "Users"], mypage: ["landmark", "My page"] };
 const lab = k => LABELS[k] || [TABLES[k].icon, TABLES[k].label];
 
 function Login() {
@@ -82,11 +83,11 @@ export default function AdminApp() {
   return <div className="admin">
     <header className="abarTop"><button className="menu-btn" onClick={() => setMenu(!menu)} aria-label="Menu">☰</button><b>Damboa LGA · Admin</b><Link href="/" className="note" target="_blank">View site ↗</Link></header>
     <nav className={`anav${menu ? " on" : ""}`}>
-      {allowed.map(k => <button key={k} className={view === k ? "on" : ""} onClick={() => go(k)}><span>{lab(k)[0]}</span>{lab(k)[1]}</button>)}
+      {allowed.map(k => <button key={k} className={view === k ? "on" : ""} onClick={() => go(k)}><span><Icon name={lab(k)[0]} /></span>{lab(k)[1]}</button>)}
       <button onClick={() => sb().auth.signOut()}><span>↩</span>Sign out</button>
     </nav>
     {menu && <div className="ascrim" onClick={() => setMenu(false)} />}
     <div className="amain">{body}</div>
-    <div className="atab">{bottom.map(k => <button key={k} className={view === k ? "on" : ""} onClick={() => go(k)}><span>{lab(k)[0]}</span>{lab(k)[1]}</button>)}<button onClick={() => setMenu(true)}><span>☰</span>More</button></div>
+    <div className="atab">{bottom.map(k => <button key={k} className={view === k ? "on" : ""} onClick={() => go(k)}><span><Icon name={lab(k)[0]} /></span>{lab(k)[1]}</button>)}<button onClick={() => setMenu(true)}><span><Icon name="menu" /></span>More</button></div>
   </div>;
 }

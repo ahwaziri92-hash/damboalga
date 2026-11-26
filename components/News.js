@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import Icon, { CAT_ICON } from "@/components/Icon";
 
-const ICO = { Digital: "💻", Governance: "🏛", Education: "🎓", Health: "🏥", Economy: "🛒", History: "📜", Politics: "🗳", Video: "▶", Jobs: "💼", Safety: "🛡" };
 function ytId(u) { const m = (u || "").match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/); return m ? m[1] : null; }
 
 export function NewsItem({ n, photos = {}, feat, L = "en" }) {
@@ -14,7 +14,7 @@ export function NewsItem({ n, photos = {}, feat, L = "en" }) {
     <article className={`nart${feat ? " feat" : ""}${n.is_video ? " isvid" : ""}${open ? " open" : ""}`} onClick={() => setOpen(!open)}>
       <div className={`nthumb n-${n.is_video ? "Video" : n.category}`}>
         {thumb && <img className="nimg" src={thumb} alt="" />}
-        {n.is_video ? <><span className="play">▶</span><span className="vlab">VIDEO</span></> : (!thumb && <span>{ICO[n.category] || "📰"}</span>)}
+        {n.is_video ? <><span className="play"><Icon name="play" size={26} /></span><span className="vlab">VIDEO</span></> : (!thumb && <span className="nico"><Icon name={CAT_ICON[n.category] || "news"} size={34} stroke={1.6} /></span>)}
       </div>
       <div className="nbody">
         <div className="nmeta"><b>{n.category}</b> · {n.date_label}</div>

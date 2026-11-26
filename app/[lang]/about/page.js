@@ -1,9 +1,10 @@
-import { getLang, tr } from "@/lib/i18n";
+import { langOf, tr } from "@/lib/i18n";
 import { getHeritage, getSettings, getWards } from "@/lib/data";
 import { Avatar } from "@/components/News";
+import Icon, { CAT_ICON } from "@/components/Icon";
 export const revalidate = 300;
-export default async function About() {
-  const L = await getLang(); const t = tr(L); const ha = L === "ha";
+export default async function About({ params }) {
+  const L = await langOf(params); const t = tr(L); const ha = L === "ha";
   const [her, s, wards] = await Promise.all([getHeritage(), getSettings(), getWards()]);
   const pus = wards.reduce((a, w) => a + (w.polling_units || []).length, 0);
   const dh = s.district_head;
@@ -21,7 +22,7 @@ export default async function About() {
       <div className="card" style={{ marginTop: 12 }}><h3>Elders’ history project</h3><p className="note">We are recording the origins of Damboa town, founding families and festivals from our elders. Families with photos or documents can share them with the Information Unit.</p></div>
     </div></section>
     <section><h2>{ha ? "Tarihi, wurare da dabi'a" : "Heritage, places and nature"}</h2><div className="grid">
-      {her.map(h => <div key={h.id || h.title} className="card heri"><div className="hico">{h.icon}</div><h3>{h.title}</h3>{h.image_url && <img className="nimgbig" src={h.image_url} alt="" />}<p>{h.body}</p>{h.note && <p className="note">{h.note}</p>}</div>)}
+      {her.map(h => <div key={h.id || h.title} className="card heri"><div className="hico"><Icon name={h.icon} size={26} /></div><h3>{h.title}</h3>{h.image_url && <img className="nimgbig" src={h.image_url} alt="" />}<p>{h.body}</p>{h.note && <p className="note">{h.note}</p>}</div>)}
     </div><p className="note">{ha ? "Al'umma za su iya aiko da hotuna da labaran tsofaffin wurare." : "Communities can send photos and stories of historic sites to the Information Unit."}</p></section>
   </>;
 }

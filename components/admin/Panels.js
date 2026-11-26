@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { sb } from "@/lib/supabase";
+import Icon from "@/components/Icon";
 import { SETTINGS, OFFICES, TABLES } from "./config";
 import { Field } from "./Fields";
 import { Editor, refreshSite } from "./TableEditor";
@@ -14,11 +15,11 @@ export function Dashboard({ profile, go, allowed }) {
     const off = profile.role === "office_admin" ? q => q.eq("office_key", profile.office_key) : null;
     setC({ pub: await n("news", q => (off ? off(q) : q).eq("status", "published")), pend: await n("news", q => (off ? off(q) : q).eq("status", "pending")), draft: await n("news", q => (off ? off(q) : q).eq("status", "draft")), msg: allowed.includes("messages") ? await n("messages", q => (off ? off(q) : q).eq("status", "new")) : 0 });
   })(); }, []); // eslint-disable-line
-  const tiles = [["news", "📰", "Published stories", c.pub], ["approvals", "⏳", "Waiting for approval", c.pend], ["news", "📝", "Drafts", c.draft], ["messages", "✉️", "New messages", c.msg]].filter(t => allowed.includes(t[0]));
+  const tiles = [["news", "news", "Published stories", c.pub], ["approvals", "wait", "Waiting for approval", c.pend], ["news", "file", "Drafts", c.draft], ["messages", "inbox", "New messages", c.msg]].filter(t => allowed.includes(t[0]));
   return <div>
     <h1>Salam, {profile.full_name?.split(" ")[0] || "welcome"}</h1>
     <p className="note">Role: <b>{profile.role.replace("_", " ")}</b>{profile.office_key ? ` · ${profile.office_key}` : ""}</p>
-    <div className="atiles">{tiles.map((t, i) => <button key={i} className="atile" onClick={() => go(t[0])}><span>{t[1]}</span><b>{t[3] ?? "…"}</b><small>{t[2]}</small></button>)}</div>
+    <div className="atiles">{tiles.map((t, i) => <button key={i} className="atile" onClick={() => go(t[0])}><span><Icon name={t[1]} size={22} /></span><b>{t[3] ?? "…"}</b><small>{t[2]}</small></button>)}</div>
     {allowed.includes("news") && <button className="btn" style={{ width: "100%", marginTop: 12 }} onClick={() => go("news", { add: true })}>＋ Write a news story</button>}
     <div className="card" style={{ marginTop: 16 }}><b>Tips</b><ul className="note" style={{ paddingLeft: 18, margin: ".4em 0 0" }}>
       <li>Changes show on the public site within a minute.</li>
@@ -36,7 +37,7 @@ export function Approvals({ profile }) {
     const { error } = await sb().from("news").update({ status, updated_at: new Date().toISOString() }).eq("id", r.id);
     if (error) alert(error.message); else { refreshSite(); load(); }
   }
-  return <div><h1>⏳ Approvals</h1><p className="note">Stories waiting for the Chairman’s approval. Political stories and stories sent by office accounts come here.</p>
+  return <div><h1 className="ah1"><Icon name="wait" size={24} /> Approvals</h1><p className="note">Stories waiting for the Chairman’s approval. Political stories and stories sent by office accounts come here.</p>
     {!rows ? <p className="note">Loading…</p> : !rows.length ? <p className="empty">Nothing waiting. All clear.</p> :
       rows.map(r => <div key={r.id} className="card appr">
         {r.image_url && <img src={r.image_url} alt="" />}
@@ -56,7 +57,7 @@ export function Messages({ profile }) {
   async function setStatus(r, status) { await sb().from("messages").update({ status }).eq("id", r.id); setRows(x => x.map(y => y.id === r.id ? { ...y, status } : y)); }
   const shown = (rows || []).filter(r => f === "all" || r.status === f);
   const offName = k => (OFFICES.find(o => o[0] === k) || [k, k])[1];
-  return <div><h1>✉️ Messages</h1>
+  return <div><h1 className="ah1"><Icon name="inbox" size={24} /> Messages</h1>
     <div className="tabs">{[["new", "New"], ["read", "Read"], ["replied", "Replied"], ["closed", "Closed"], ["all", "All"]].map(t => <button key={t[0]} className={f === t[0] ? "on" : ""} onClick={() => setF(t[0])}>{t[1]}{rows ? ` (${t[0] === "all" ? rows.length : rows.filter(r => r.status === t[0]).length})` : ""}</button>)}</div>
     {!rows ? <p className="note">Loading…</p> : !shown.length ? <p className="empty">No messages.</p> :
       <div className="alist">{shown.map(r => <div key={r.id} className={`card amsg${open === r.id ? " open" : ""}`} onClick={() => { setOpen(open === r.id ? null : r.id); if (r.status === "new") setStatus(r, "read"); }}>
@@ -64,7 +65,7 @@ export function Messages({ profile }) {
         <b>{r.name || "No name"}</b> <span className="note">{r.ward || ""}{r.village ? ` – ${r.village}` : ""}</span>
         <p style={{ margin: ".3em 0", whiteSpace: open === r.id ? "pre-wrap" : "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{r.body}</p>
         {open === r.id && <div className="abar" onClick={e => e.stopPropagation()}>
-          {r.phone && <a className="btn btnlink" href={`tel:${r.phone}`}>📞 Call</a>}
+          {r.phone && <a className="btn btnlink" href={`tel:${r.phone}`}>Call</a>}
           {r.phone && <a className="btn btnlink ghost" href={`https://wa.me/${r.phone.replace(/\D/g, "").replace(/^0/, "234")}`} target="_blank" rel="noopener">WhatsApp</a>}
           <button className="btn ghost" onClick={() => setStatus(r, "replied")}>Mark replied</button>
           <button className="btn ghost" onClick={() => setStatus(r, "closed")}>Close</button>
@@ -83,7 +84,7 @@ export function Settings() {
     setBusy(false); setMsg(error ? error.message : "Saved."); if (!error) refreshSite();
   }
   if (!s) return <p className="note">Loading…</p>;
-  return <div><h1>⚙️ Site settings</h1>
+  return <div><h1 className="ah1"><Icon name="settings" size={24} /> Site settings</h1>
     {SETTINGS.map(f => <Field key={f[0]} f={f} value={s[f[0]]} onChange={v => setS(x => ({ ...x, [f[0]]: v }))} />)}
     <div className="abar"><button className="btn" onClick={save} disabled={busy}>{busy ? "Saving…" : "Save settings"}</button>{msg && <span className="note">{msg}</span>}</div>
   </div>;
@@ -94,7 +95,7 @@ export function Users({ profile }) {
   const load = async () => { const { data } = await sb().from("profiles").select("*").order("created_at"); setRows(data || []); };
   useEffect(() => { load(); }, []);
   async function upd(r, patch) { const { error } = await sb().from("profiles").update(patch).eq("id", r.id); if (error) alert(error.message); else load(); }
-  return <div><h1>🔑 Users and roles</h1>
+  return <div><h1 className="ah1"><Icon name="key" size={24} /> Users and roles</h1>
     <p className="note">New staff sign up on the admin login page, then appear here as “pending”. Give them a role:</p>
     <ul className="note" style={{ paddingLeft: 18 }}><li><b>Super admin</b> – everything, including users.</li><li><b>Editor</b> – Information Unit: all content and messages.</li><li><b>Approver</b> – approves political and office stories for the Chairman.</li><li><b>Office admin</b> – one office (e.g. the Assembly member): its own page, news and messages. Its stories need approval.</li></ul>
     {!rows ? <p className="note">Loading…</p> : rows.map(r => <div key={r.id} className="card auser">

@@ -395,6 +395,118 @@
    "status": "published",
    "office_key": "state-member",
    "image_url": null
+  },
+  {
+   "date_label": "From about the 14th century",
+   "sort_date": "1300-01-01",
+   "category": "History",
+   "title": "The Marghi settle the plains of southern Borno",
+   "body": "Marghi oral history and early written accounts describe how, as the Borno kingdom expanded, many Marghi communities moved gradually south. From about the fourteenth century they were living on the plains they occupy today, the 'Marghi babal' of the Damboa and Gwoza districts. Their chiefs were known as Ptil, advised by a council of elders.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": "101 Last Tribes – Margi people",
+   "source_url": "https://www.101lasttribes.com/tribes/margi.html",
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "Long ago",
+   "sort_date": "1800-01-01",
+   "category": "History",
+   "title": "How calabash farming made Damboa a meeting place",
+   "body": "Damboa grew rich on calabash farming. Kanuri traders travelled back and forth to buy calabash, and over time many settled and married into Marghi families. That is why so many Damboa families today are part Marghi and part Kanuri, while some families remain fully Marghi or fully Kanuri.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": "Wikipedia – Damboa",
+   "source_url": "https://en.wikipedia.org/wiki/Damboa",
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "Traditional crafts",
+   "sort_date": "1900-01-01",
+   "category": "History",
+   "title": "The musket-makers of Damboa",
+   "body": "Damboa was known beyond its farms and market for its craftsmen. Reports describe a guild in the town that made muskets for local hunters. Elders who remember the smiths and their workshops are invited to share their stories with the Information Unit.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": "Council on Foreign Relations (citing the Wall Street Journal)",
+   "source_url": "https://www.cfr.org/blog/nigerias-boko-haram-becoming-territorial",
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "1958 and 1978",
+   "sort_date": "1958-01-01",
+   "category": "History",
+   "title": "Sambisa becomes a forest reserve, then a game reserve",
+   "body": "Part of the Sambisa Forest lies in Damboa. It was gazetted as a forest reserve in 1958 and as a game reserve in 1978. In the years that followed, visitors came on safari to see lions, elephants and leopards, and 62 bird species were recorded there.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": null,
+   "source_url": null,
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "2014",
+   "sort_date": "2014-07-18",
+   "category": "History",
+   "title": "The hard year: Damboa under attack",
+   "body": "Insurgents attacked Damboa in January 2014 and again in July. On 18 July 2014 they overran the town, killing many people and burning homes and the main market. More than 15,000 residents were forced to flee, according to the National Emergency Management Agency. Damboa remembers all who lost their lives.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": "Anadolu Agency",
+   "source_url": "https://aa.com.tr/en/world/28-militants-killed-in-fresh-battle-with-nigeria-troops-/109101",
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "August 2014",
+   "sort_date": "2014-08-25",
+   "category": "History",
+   "title": "Troops retake Damboa",
+   "body": "In late August 2014 Nigerian troops drove the insurgents out of Damboa and took down the flag they had raised over the town. It was the first step on a long road home for families scattered across Maiduguri and beyond.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": "ICIR Nigeria – Nigerian Military Reclaims Damboa",
+   "source_url": "https://www.icirnigeria.org/nigerian-military-reclaims-damboa/",
+   "status": "published",
+   "office_key": null,
+   "image_url": null
+  },
+  {
+   "date_label": "2015 onwards",
+   "sort_date": "2015-06-01",
+   "category": "History",
+   "title": "The road home",
+   "body": "As the Maiduguri–Damboa–Biu road reopened under military escort, traders, farmers and families began to return. The motor park filled again, and the town slowly came back to life.",
+   "tags": [],
+   "service_key": null,
+   "is_video": false,
+   "video_url": null,
+   "source_name": "ICIR Nigeria",
+   "source_url": "https://www.icirnigeria.org/life-after-boko-haram-gradually-residents-return-home/",
+   "status": "published",
+   "office_key": null,
+   "image_url": null
   }
  ],
  "chairmen": [
@@ -466,7 +578,7 @@
    "chamber": "Borno State House of Assembly",
    "title": "Member, Damboa State Constituency",
    "current_name": "Dr. Mohammed Mai Bukar, PhD",
-   "current_years": "Current",
+   "current_years": "APC candidate, 2027",
    "photo_url": "/img/member.jpg",
    "page_slug": "mai-bukar",
    "updates": [],
@@ -537,19 +649,19 @@
   {
    "seat_key": "state",
    "sort": 3,
-   "years": "2019 – 2027",
+   "years": "2019 – present",
    "name": "Hon. Malami Wakil Korede",
-   "note": "APC; Deputy Leader, 10th Assembly",
-   "is_current": false,
+   "note": "APC; Deputy Leader, 10th Assembly. Term ends 2027",
+   "is_current": true,
    "photo_url": "/img/korede.jpg"
   },
   {
    "seat_key": "state",
    "sort": 4,
-   "years": "Current",
+   "years": "2027 –",
    "name": "Dr. Mohammed Mai Bukar, PhD",
-   "note": "APC",
-   "is_current": true,
+   "note": "APC candidate, February 2027 election",
+   "is_current": false,
    "photo_url": "/img/member.jpg"
   },
   {
@@ -1384,7 +1496,7 @@
   {
    "key": "secretariat",
    "sort": 1,
-   "icon": "🏛",
+   "icon": "office",
    "name": "Damboa LGA Secretariat",
    "location": "Maiduguri Road, Damboa",
    "description": "Seat of the council. Phone and email to be added.",
@@ -1393,7 +1505,7 @@
   {
    "key": "inec",
    "sort": 2,
-   "icon": "🗳",
+   "icon": "vote",
    "name": "INEC Damboa LGA Office",
    "location": "Near the LGA Secretariat, Maiduguri Road",
    "description": "Voter registration and PVC collection.",
@@ -1402,7 +1514,7 @@
   {
    "key": "ict",
    "sort": 3,
-   "icon": "💻",
+   "icon": "laptop",
    "name": "BICTDA LG ICT Centre",
    "location": "Damboa town",
    "description": "Free computer access, internet, training and CBT exams.",
@@ -1411,7 +1523,7 @@
   {
    "key": "hospital",
    "sort": 4,
-   "icon": "🏥",
+   "icon": "hospital",
    "name": "Damboa General Hospital",
    "location": "Damboa town",
    "description": "General care and nutrition stabilisation centre.",
@@ -1420,7 +1532,7 @@
   {
    "key": "clinics",
    "sort": 5,
-   "icon": "🩺",
+   "icon": "clinic",
    "name": "MdM clinics – GTS and Hausari",
    "location": "Damboa town",
    "description": "Free primary health care.",
@@ -1429,7 +1541,7 @@
   {
    "key": "market",
    "sort": 6,
-   "icon": "🛒",
+   "icon": "market",
    "name": "Damboa Main Market",
    "location": "Damboa town",
    "description": "Market days to be added. Weekly food prices published here.",
@@ -1512,42 +1624,42 @@
  "heritage": [
   {
    "sort": 1,
-   "icon": "🌳",
+   "icon": "forest",
    "title": "Sambisa Forest",
    "body": "Part of the Sambisa Forest lies in Damboa. It was gazetted as a forest reserve in 1958 and a game reserve in 1978; from the 1970s visitors came on safari to see lions, elephants and leopards, and 62 bird species have been recorded there.",
    "note": "A symbol of the natural heritage Damboa hopes to restore."
   },
   {
    "sort": 2,
-   "icon": "🛒",
+   "icon": "market",
    "title": "Damboa Main Market",
    "body": "For generations the meeting point of farmers and traders from across southern Borno. Destroyed in 2014 and reopened in 2016.",
    "note": null
   },
   {
    "sort": 3,
-   "icon": "🌾",
+   "icon": "wheat",
    "title": "Farmlands and gum arabic",
    "body": "Grains, groundnuts, beans and gum arabic from Damboa's farmlands feed the region and its markets.",
    "note": null
   },
   {
    "sort": 4,
-   "icon": "🥁",
+   "icon": "drum",
    "title": "Marghi language and culture",
    "body": "The Marghi language, with its Damboa and Mulgwai varieties, and the shared Marghi–Kanuri heritage of Damboa families.",
    "note": "Festivals and cultural sites to be documented with elders."
   },
   {
    "sort": 5,
-   "icon": "🏺",
+   "icon": "pot",
    "title": "The calabash trade",
    "body": "Calabash farming drew Kanuri traders to Damboa and shaped the town's mixed heritage.",
    "note": null
   },
   {
    "sort": 6,
-   "icon": "📍",
+   "icon": "pin",
    "title": "Historic sites",
    "body": "Old settlements, the District Head's palace, early schools and mosques.",
    "note": "To be added with the elders' history project."

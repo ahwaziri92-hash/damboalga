@@ -2,12 +2,13 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Modal, Avatar, NewsList } from "./News";
+import Icon, { CAT_ICON } from "@/components/Icon";
 
 export function ChairmenTimeline({ chairmen, L }) {
   const [open, setOpen] = useState(() => new Set(chairmen.filter(c => c.is_current).map(c => c.id || c.name)));
   const tog = k => setOpen(s => { const n = new Set(s); n.has(k) ? n.delete(k) : n.add(k); return n; });
   return <div className="tl">
-    <div className="tli"><div className="card"><div className="person"><div className="ph">🏛</div><div><div className="yrs">1976</div><h3 style={{ margin: ".1em 0" }}>Damboa LGA created</h3><div className="note">{L === "ha" ? "Ana tattara cikakken jerin shugabanni." : "The full list of chairmen since 1976 is being compiled from council records."}</div></div></div></div></div>
+    <div className="tli"><div className="card"><div className="person"><div className="ph"><Icon name="landmark" size={34} stroke={1.6} /></div><div><div className="yrs">1976</div><h3 style={{ margin: ".1em 0" }}>Damboa LGA created</h3><div className="note">{L === "ha" ? "Ana tattara cikakken jerin shugabanni." : "The full list of chairmen since 1976 is being compiled from council records."}</div></div></div></div></div>
     {chairmen.map(p => { const k = p.id || p.name; return (
       <div key={k} className={`tli${p.is_current ? " cur" : ""}${open.has(k) ? " open" : ""}`}>
         <button onClick={() => tog(k)}><div className="card"><div className="person"><Avatar name={p.name} src={p.photo_url} /><div>
@@ -52,8 +53,8 @@ export function Seats({ seats, photos, wards, L }) {
       <div className="seatbody">
         {g.area && <p className="note" style={{ marginTop: 12 }}><b>{L === "ha" ? "Yanki" : "Area"}:</b> {g.area}</p>}
         <h4>{L === "ha" ? "Wadanda suka rike kujerar tun 1999" : "Holders of this seat since 1999"}</h4>
-        <ol className="hist">{g.holders.map(h => { const inner = <><span className="hy">{h.years}</span>{(h.photo_url || photos[h.name]) && <img className="hav" src={h.photo_url || photos[h.name]} alt="" />}<b>{h.name}</b><span className="note">{h.note}</span>{h.is_current && g.page_slug && <span className="go"> {L === "ha" ? "Bude shafi" : "Open page"} →</span>}</>;
-          return <li key={h.id || h.years + h.name} className={h.is_current ? "cur" : ""}>{h.is_current && g.page_slug ? <Link href={`/legislators/${g.page_slug}`}>{inner}</Link> : inner}</li>; })}</ol>
+        <ol className="hist">{g.holders.map(h => { const feat = h.name === g.current_name && g.page_slug; const inner = <><span className="hy">{h.years}</span>{(h.photo_url || photos[h.name]) && <img className="hav" src={h.photo_url || photos[h.name]} alt="" />}<b>{h.name}</b><span className="note">{h.note}</span>{feat && <span className="go"> {L === "ha" ? "Bude shafi" : "Open page"} →</span>}</>;
+          return <li key={h.id || h.years + h.name} className={h.is_current ? "cur" : ""}>{feat ? <Link href={`/legislators/${g.page_slug}`}>{inner}</Link> : inner}</li>; })}</ol>
         {!g.page_slug && <>
           {(g.updates || []).length > 0 && <><h4>{L === "ha" ? "Sabbin bayanai" : "Updates"}</h4><ul className="upd">{g.updates.map(u => <li key={u.text}><span className="note">{u.label}</span> {u.text}</li>)}</ul></>}
           {!form[g.key] ? <button className="btn" onClick={() => setForm(f => ({ ...f, [g.key]: true }))}>{L === "ha" ? "Tuntubi ofishinsa" : "Contact their office"}</button>
@@ -71,11 +72,11 @@ export function Services({ services, news, prices, L }) {
   return <>
     <div className="grid">{services.map(s => (
       <button key={s.key} className="card svc" onClick={() => setV(s)}>
-        <div className="quick" style={{ display: "flex", gap: 10 }}><span className="ico">{s.icon}</span><div><h3 style={{ margin: 0 }}>{s.name}</h3><div className="note">📍 {s.location}</div></div></div>
+        <div className="quick" style={{ display: "flex", gap: 10 }}><span className="ico"><Icon name={s.icon} size={22} /></span><div><h3 style={{ margin: 0 }}>{s.name}</h3><div className="note pinl"><Icon name="pin" size={14} /> {s.location}</div></div></div>
         <p>{s.description}</p><span className="nmore">{L === "ha" ? "Bayanai da labarai" : "Details and updates"} ›</span>
       </button>))}</div>
     {v && <Modal onClose={() => setV(null)}>
-      <div className="mhead"><div className="ph" style={{ fontSize: "2rem" }}>{v.icon}</div><div><h2 style={{ margin: ".1em 0" }}>{v.name}</h2><div className="note">📍 {v.location}</div></div></div>
+      <div className="mhead"><div className="ph"><Icon name={v.icon} size={40} stroke={1.6} /></div><div><h2 style={{ margin: ".1em 0" }}>{v.name}</h2><div className="note pinl"><Icon name="pin" size={14} /> {v.location}</div></div></div>
       <p>{v.description}</p>
       {v.show_prices && <><h3>{L === "ha" ? "Farashin kayan abinci na mako" : "This week's food prices"}</h3>
         <table className="keep"><tbody><tr><th>Item</th><th>Measure</th><th>Price (₦)</th><th>Change</th></tr>

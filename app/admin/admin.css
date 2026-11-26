@@ -34,9 +34,11 @@
 .aerr{background:#fde8e8;color:#8a1c1c;padding:8px 10px;border-radius:8px;margin:8px 0;font-size:.9rem}
 .atiles{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
 .atile{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;text-align:left;font:inherit;color:var(--ink);cursor:pointer}
-.atile span{font-size:1.3rem}.atile b{display:block;font-size:1.8rem;color:var(--g);font-family:Fraunces,serif}.atile small{color:var(--mut)}
+.atile span{font-size:1.3rem}.atile b{display:block;font-size:1.8rem;color:var(--g);font-family:var(--serif),Georgia,serif}.atile small{color:var(--mut)}
 .appr{margin-bottom:12px}.appr img{width:100%;max-height:220px;object-fit:cover;border-radius:10px}
 .amsg{cursor:pointer}.auser{margin-bottom:8px}.auser select{width:auto}
 .alogin{min-height:80vh;display:flex;align-items:center;justify-content:center;padding:16px}.alogin .card{width:100%;max-width:400px}
 @media(min-width:960px){.admin{padding-bottom:0;padding-left:250px}.anav{transform:none;width:240px;box-shadow:none;border-right:1px solid var(--line);top:52px}.ascrim,.atab,.abarTop .menu-btn{display:none}}
-body:has(.admin) footer,body:has(.alogin) footer{display:none}body:has(.admin) main,body:has(.alogin) main{max-width:none;padding:0;margin:0}
+
+.ah1{display:flex;align-items:center;gap:8px}.atab button span,.anav span{display:grid;place-items:center}
+.atile span{color:var(--g)}

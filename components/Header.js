@@ -1,14 +1,14 @@
 "use client";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function Header({ L, nav, stateLine }) {
-  const path = usePathname(); const router = useRouter();
+  const path = usePathname();
   const [open, setOpen] = useState(false);
   useEffect(() => { setOpen(false); }, [path]);
   useEffect(() => { const f = () => setOpen(o => !o); window.addEventListener("toggle-menu", f); return () => window.removeEventListener("toggle-menu", f); }, []);
-  const setLang = l => { document.cookie = `lang=${l};path=/;max-age=31536000`; router.refresh(); };
+  const setLang = l => { if (l === L) return; document.cookie = `lang=${l};path=/;max-age=31536000;samesite=lax`; window.location.reload(); };
   if (path.startsWith("/admin")) return null;
   const active = h => h === "/" ? path === "/" : path.startsWith(h) || (h === "/leadership" && path.startsWith("/chairman"));
   return (

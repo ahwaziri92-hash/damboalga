@@ -1,10 +1,10 @@
-import { getLang, tr } from "@/lib/i18n";
+import { langOf, tr } from "@/lib/i18n";
 import { getServices, getNews, getPrices, getWards, getOfficials } from "@/lib/data";
 import { Services } from "@/components/People";
 import ContactForm from "@/components/ContactForm";
 export const revalidate = 60;
-export default async function ServicesPage() {
-  const L = await getLang(); const t = tr(L); const ha = L === "ha";
+export default async function ServicesPage({ params }) {
+  const L = await langOf(params); const t = tr(L); const ha = L === "ha";
   const [svcs, news, prices, wards, off] = await Promise.all([getServices(), getNews(), getPrices(), getWards(), getOfficials()]);
   return <>
     <h1>{t("contact")}</h1>

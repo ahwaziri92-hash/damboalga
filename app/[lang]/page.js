@@ -23,7 +23,7 @@ export default async function Home({ params }) {
     {chair && <div className="welcome">{chair.photo_url && <img src={chair.photo_url} alt={chair.name} />}
       <div><h2 style={{ marginBottom: ".2em" }}>{t("welT")}</h2><p>{ha ? s.welcome_ha : s.welcome_en}</p><b>{chair.name}</b><br /><span className="note">{chair.role}, {chair.subtitle}</span><br />
         <Link className="btn btnlink" href="/chairman">{t("chairPage")} →</Link></div></div>}
-    <section className="two"><div><h2>{t("mapT")}</h2><HomeMap wards={wards} /><p className="note">{ha ? "Iyakokin mazabu daga GRID3 (2026)." : "Ward boundaries from GRID3 (2026)."} <Link href="/wards">{t("wards")} →</Link></p></div>
+    <section className="two"><div><h2>{t("mapT")}</h2><HomeMap wards={wards} L={L} /><p className="note">{ha ? "Iyakokin mazabu daga GRID3 (2026)." : "Ward boundaries from GRID3 (2026)."} <Link href="/wards">{t("wards")} →</Link></p></div>
       <div><h2>{t("quick")}</h2><div className="grid quick" style={{ gridTemplateColumns: "1fr" }}>
         {quick.map(q => <div key={q[0]} className="card"><Link href={q[0]}><span className="ico"><Icon name={q[1]} /></span>{q[2]}</Link></div>)}</div></div></section>
     <section><h2>{t("latest")}</h2><NewsList items={news.slice(0, 3)} photos={photos} L={L} /><p><Link className="back" href="/news">{t("all")} →</Link></p></section>

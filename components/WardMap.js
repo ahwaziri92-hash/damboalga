@@ -1,40 +1,74 @@
 "use client";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Link from "next/link";
 import { MAP } from "@/lib/mapdata";
-import Icon, { CAT_ICON } from "@/components/Icon";
+import { BORNO } from "@/lib/borno-lgas";
+import Icon from "./Icon";
 
-function Svg({ wards, sel, onPick, pins = true }) {
-  let dots = "";
-  for (let i = 0; i + 6 <= MAP.SETS.length; i += 6) dots += `M${+MAP.SETS.slice(i, i + 3)},${+MAP.SETS.slice(i + 3, i + 6)}h.1`;
-  return (
-    <svg viewBox={`0 0 ${MAP.MAPW} ${MAP.MAPH}`} role="img" aria-label="Map of Damboa LGA and its wards">
-      <rect width={MAP.MAPW} height={MAP.MAPH} fill="#efebe2" />
-      {MAP.NBR.map(n => <path key={n[0]} d={n[1]} fill="#f6f3ec" stroke="#c9bfae" strokeWidth="1.2" />)}
-      <g className="nl">{MAP.NBRL.filter(l => l[1] > 0).map(l => <text key={l[0]} x={l[1]} y={l[2]}>{l[0]}</text>)}</g>
-      {wards.map((w, i) => <path key={w.n} className={`ward${sel === w.n ? " sel" : ""}`} d={MAP.WP2[i]} onClick={() => onPick(w.n)}><title>{w.name}</title></path>)}
-      <path d={dots} stroke="#7a8a80" strokeWidth="2.6" strokeLinecap="round" opacity=".55" pointerEvents="none" />
-      {wards.map(w => { const c = MAP.LBL2[w.n]; const lines = w.name.split(" / "); return lines.map((ln, i) => <text key={w.n + ln} className={`wl${sel === w.n ? " sel" : ""}`} x={c[0]} y={c[1] + (i - (lines.length - 1) / 2) * 14}>{ln}</text>); })}
-      {pins && MAP.PINS2.filter(p => !["Bego", "Nzuda", "Garjang", "Wawa"].includes(p[0])).map(p => <g key={p[0]}><circle cx={p[1]} cy={p[2]} r="3.4" fill="#1d2b24" stroke="#fff" /><text className="pl" x={p[1] + 6} y={p[2] - 5}>{p[0]}</text></g>)}
-      {MAP.TOWNS.map(t => <g key={t[0]}><rect x={t[1] - 5} y={t[2] - 5} width="10" height="10" fill="#5b4a2e" stroke="#fff" strokeWidth="2" /><text className="pl" x={t[1] + 9} y={t[2] + 4} style={{ fontSize: 14, fontWeight: 700 }}>{t[0]}</text></g>)}
-      <circle cx={MAP.DHQ[0]} cy={MAP.DHQ[1]} r="9" fill="#c9a227" stroke="#fff" strokeWidth="3" />
-      <text className="pl" x={MAP.DHQ[0] + 12} y={MAP.DHQ[1] - 10} style={{ fontSize: 15, fontWeight: 700 }}>Damboa town (HQ)</text>
-      <g transform="translate(630,528)"><rect width="129" height="6" fill="#1d2b24" /><rect width="64" height="6" fill="#fff" stroke="#1d2b24" /><text y="-6" fontSize="12">0</text><text x="108" y="-6" fontSize="12">20 km</text></g>
-      <g transform="translate(790,520)"><path d="M0 -22 L8 0 L0 -7 L-8 0z" fill="#1d2b24" /><text y="16" fontSize="13" textAnchor="middle" fontWeight="700">N</text></g>
-    </svg>
-  );
+// Map styling shared with the Y4DC live map
+const BG = "#163a3f", EDGE = "#10292d", SEL = "#ffefd2", ACC = "#f5a89a";
+const BUCKETS = [[0, 15, "#2f6f70", "≤15"], [16, 19, "#3e8a89", "16–19"], [20, 24, "#6ab0af", "20–24"], [25, 99, "#9fd1cf", "25+"]];
+const fillFor = n => (BUCKETS.find(b => n >= b[0] && n <= b[1]) || BUCKETS[0])[2];
+
+function Locator() {
+  return <svg viewBox={`0 0 ${BORNO.w} ${BORNO.h}`} className="loc" aria-hidden="true">
+    {BORNO.lgas.map(l => <path key={l.n} d={l.d} fill={l.n === "Damboa" ? ACC : "#2c5a5f"} stroke="#163a3f" strokeWidth="2" />)}
+  </svg>;
 }
 
-export function HomeMap({ wards }) {
-  return <div className="mapwrap"><Link href="/wards" aria-label="Open wards map"><Svg wards={wards} sel={0} onPick={() => {}} /></Link></div>;
+function Svg({ wards, sel, onPick, interactive = true, villages = false }) {
+  const W = MAP.MAPW, H = MAP.MAPH;
+  const [vb, setVb] = useState([0, 0, W, H]);
+  const drag = useRef(null); const ref = useRef(null);
+  const zoom = vb[2] / W;
+  const setZoom = f => { const [x, y, w, h] = vb; const nw = Math.min(W, Math.max(W / 5, w * f)), nh = nw * H / W; setVb([x + (w - nw) / 2, y + (h - nh) / 2, nw, nh]); };
+  const down = e => { if (interactive) drag.current = { x: e.clientX, y: e.clientY, vb, moved: false }; };
+  const move = e => { const d = drag.current; if (!d || !ref.current) return; const k = d.vb[2] / ref.current.clientWidth; const dx = (e.clientX - d.x) * k, dy = (e.clientY - d.y) * k; if (Math.abs(dx) + Math.abs(dy) > 3) d.moved = true; if (d.moved && zoom < 1) setVb([d.vb[0] - dx, d.vb[1] - dy, d.vb[2], d.vb[3]]); };
+  const up = () => setTimeout(() => { drag.current = null; }, 0);
+  const pick = n => { if (!drag.current?.moved) onPick(n); };
+  let dots = "";
+  if (villages) for (let i = 0; i + 6 <= MAP.SETS.length; i += 6) dots += `M${+MAP.SETS.slice(i, i + 3)},${+MAP.SETS.slice(i + 3, i + 6)}h.1`;
+  return <div className="mapbox">
+    <svg ref={ref} viewBox={vb.join(" ")} role="img" aria-label="Map of Damboa LGA and its wards" style={{ touchAction: zoom < 1 ? "none" : "pan-y" }}
+      onPointerDown={down} onPointerMove={move} onPointerUp={up} onPointerLeave={up}>
+      <rect x={-W} y={-H} width={W * 3} height={H * 3} fill={BG} />
+      {MAP.NBR.map(n => <path key={n[0]} d={n[1]} fill="#1d4a50" stroke="#ffffff" strokeOpacity=".35" strokeWidth={1.2 * zoom} />)}
+      {MAP.NBRL.filter(l => l[1] > 0).map(l => <text key={l[0]} x={l[1]} y={l[2]} className="mnl" style={{ fontSize: 15 * Math.max(zoom, .6) }}>{l[0]}</text>)}
+      {wards.map((w, i) => <path key={w.n} d={MAP.WP2[i]} fill={sel === w.n ? SEL : fillFor(w.polling_units.length)} stroke={sel === w.n ? "#fff" : EDGE} strokeWidth={(sel === w.n ? 3 : 1.4) * zoom} onClick={() => pick(w.n)} style={{ cursor: "pointer" }}><title>{w.name}</title></path>)}
+      {villages && <path d={dots} stroke="#ffefd2" strokeWidth={2.6 * zoom} strokeLinecap="round" opacity=".55" pointerEvents="none" />}
+      {wards.map(w => { const c = MAP.LBL2[w.n]; const lines = w.name.split(" / "); const on = sel === w.n; return lines.map((ln, i) => <text key={w.n + ln} x={c[0]} y={c[1] + (i - (lines.length - 1) / 2) * 21 * zoom} className="mwl" style={{ fontSize: 19 * zoom, fill: on ? "#163a3f" : "#fff", stroke: on ? SEL : BG, strokeWidth: 4 * zoom }}>{ln}</text>); })}
+      {MAP.TOWNS.map(t => <g key={t[0]}><rect x={t[1] - 5 * zoom} y={t[2] - 5 * zoom} width={10 * zoom} height={10 * zoom} fill={ACC} stroke={BG} strokeWidth={2 * zoom} /><text x={t[1] + 9 * zoom} y={t[2] + 4 * zoom} className="mpl" style={{ fontSize: 17 * zoom, strokeWidth: 4 * zoom }}>{t[0]}</text></g>)}
+      <circle cx={MAP.DHQ[0]} cy={MAP.DHQ[1]} r={8 * zoom} fill="#c9a227" stroke="#fff" strokeWidth={2.5 * zoom} pointerEvents="none" />
+      <text x={MAP.DHQ[0] + 12 * zoom} y={MAP.DHQ[1] + 22 * zoom} className="mpl" style={{ fontSize: 15 * zoom, fontWeight: 700, strokeWidth: 4 * zoom }}>HQ</text>
+    </svg>
+    {interactive && <div className="mzoom">
+      <button onClick={() => setZoom(0.6)} aria-label="Zoom in">+</button>
+      <button onClick={() => setZoom(1 / 0.6)} aria-label="Zoom out">−</button>
+      <button onClick={() => setVb([0, 0, W, H])} aria-label="Reset map">⟲</button>
+    </div>}
+    <div className="mloc"><Locator /><span>Borno</span></div>
+  </div>;
+}
+
+function Legend({ L }) {
+  return <div className="mleg">{BUCKETS.map(b => <span key={b[3]}><i style={{ background: b[2] }} />{b[3]}</span>)}<span className="mleg-t">{L === "ha" ? "Rumfunan zabe a kowace mazaba" : "Polling units per ward"}</span></div>;
+}
+
+export function HomeMap({ wards, L }) {
+  return <Link href="/wards" className="mapcard" aria-label="Open wards map"><Svg wards={wards} sel={0} onPick={() => {}} interactive={false} /><Legend L={L} /></Link>;
 }
 
 export default function WardMap({ wards, L = "en" }) {
   const [sel, setSel] = useState(5);
+  const [vil, setVil] = useState(false);
   const w = wards.find(x => x.n === sel);
   return (
     <div className="two">
-      <div className="mapwrap"><Svg wards={wards} sel={sel} onPick={setSel} /></div>
+      <div className="mapcard">
+        <Svg wards={wards} sel={sel} onPick={setSel} villages={vil} />
+        <div className="mbar"><Legend L={L} /><label className="mvil"><input type="checkbox" checked={vil} onChange={e => setVil(e.target.checked)} /> {L === "ha" ? "Nuna kauyuka" : "Show settlements"}</label></div>
+        <p className="mhint">{L === "ha" ? "Taba mazaba don ganin bayanai. Yi amfani da +/− don zuƙowa." : "Tap a ward to see its details. Use +/− to zoom and drag to move."}</p>
+      </div>
       <div className="wardpanel">
         <span className="tag">Ward {w.n}</span><h2>{w.name}</h2>
         <div className="card" style={{ display: "flex", gap: 12, alignItems: "center", background: "var(--gl)", border: 0 }}>
